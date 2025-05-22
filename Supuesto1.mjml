@@ -1,0 +1,348 @@
+<mjml>
+  <mj-head>
+    <mj-title>Noticias Salón del Cómic</mj-title>
+    <mj-preview>Enterate de las noticias mas interesantes del Salón del Cómic de Valencia</mj-preview>
+    <mj-attributes>
+      <mj-text padding="0">
+      <mj-class name="blue" color="blue" />
+      <mj-class name="big" font-size="20px" />
+      <mj-class name="noticia" padding="20px" background-color="yellow"  />
+
+
+      <mj-all font-family="Arial" /> 
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+
+    <!-- Esto es para poner una BOTONERA -->
+    <mj-section background-color="white"  full-width="full-width">
+      <mj-column width="40%">
+        <mj-image padding="10px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/09/cropped-Logosin-2048x844.jpg">
+      </mj-column>
+      <mj-column width="60%">
+        <mj-navbar base-url="https://mjml.io" ico-color="#000000" align="center" padding-top="25px" padding-left="20px" padding-right="20px">
+            <mj-navbar-link href="/gettings-started-onboard" color="black" font-size="14px">Inicio</mj-navbar-link>
+            <mj-navbar-link href="/try-it-live" color="black" font-size="14px">Noticias</mj-navbar-link>
+            <mj-navbar-link href="/try-it-live" color="black" font-size="14px">Horario</mj-navbar-link>
+            <mj-navbar-link href="/components" color="black" font-size="14px">Nosotros</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Esto es para poner una LINEA -->
+    <mj-section padding-bottom="10px" padding-top="0px">
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="black" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-family="Rammetto One" font-font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
+          <h1>AGENDA</h1>
+          <h3>qué ver en el salón</h3>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper border="1px solid #000000" padding="30px">
+      <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px">
+        <mj-column>
+          <mj-image padding="0" height="280px" src="https://valenciacity.es/wp-content/uploads/Salon-C%C3%B3mic-Valencia-610x473.jpg">
+        </mj-column>
+      </mj-section>
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+
+
+
+        <mj-column border="1px solid #dddddd">
+            <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">Estamos emocionados por presentar una vez más un evento lleno de pasión y creatividad que hará vibrar a todos los amantes del cómic y la cultura pop. Del 28 de febrero al 2 de marzo, te esperamos en una experiencia única que fusiona el cómic, el cosplay, los juegos de mesa, las series, el arte, y mucho más. Prepárate para una aventura inolvidable, ¡porque el Salón del Cómic te tiene preparado un mundo de diversión!</mj-text>
+            <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="10px 10px" />
+        </mj-column>
+
+      </mj-section>
+
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column width="65%">
+            <mj-group>
+                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b>Área CÓMIC: </b> Nuestra programación de cómic regresa con una explosión de talleres, charlas con autores/as, presentaciones y muchas otras actividades. Con horarios y espacios variados, tendrás la oportunidad de conocer a tus creadores favoritos y sumergirte en el universo de las viñetas.</mj-text>
+            </mj-group>
+        </mj-column>
+
+
+        <mj-column width="35%">
+            <mj-group>
+                    <mj-image padding="1px" src="https://purepng.com/public/uploads/large/purepng.com-spidermanspider-manspidermansuperherocomic-bookmarvel-comicscharacterstan-leegamesmovie-1701528656339wdumm.png">
+            </mj-group>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column width="65%">
+            <mj-group>
+                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b>Área Cosplay: </b> El mundo del cosplay cobra vida en nuestro escenario propio. Aquí, tanto profesionales como aficionados comparten sus conocimientos y exhiben su creatividad a través de concursos y demostraciones. Únete a nosotros y sé parte del espectáculo.</mj-text>
+            </mj-group>
+        </mj-column>
+        <mj-column width="35%">
+            <mj-group>
+                    <mj-image padding="1px" src="https://static.vecteezy.com/system/resources/previews/026/583/337/non_2x/cute-kids-vampire-halloween-costume-cartoon-illustration-clipart-sticker-vector.jpg">
+            </mj-group>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column width="65%">
+            <mj-group>
+                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b>ÁREA JOC & ROL: </b> Bajo un nuevo nombre, Joc & Rol, te invitamos a sumergirte en el emocionante mundo de los juegos de mesa y rol. Partidas, demostraciones y campeonatos te esperan en un área vibrante donde la diversión no conoce límites.</mj-text>
+            </mj-group>
+        </mj-column>
+        <mj-column width="35%">
+            <mj-group>
+                    <mj-image padding="1px" src="https://m.media-amazon.com/images/I/61KSu7KJU-L._AC_UL320_.jpg"
+            </mj-group>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column width="75%">
+            <mj-group>
+                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b> Área KIDS & COMIC: </b> Los más pequeños también tienen su espacio en el Salón. Nuestra misión es promover el aprendizaje a través del juego y la lectura, abriendo las puertas al mundo de los cómics y libros ilustrados infantiles. ¡Déjalos soñar y disfrutar!</mj-text>
+            </mj-group>
+        </mj-column>
+        <mj-column width="25%">
+            <mj-group>
+                    <mj-image padding="1px" src="https://gocomicscmsassets.gocomics.com/assets/assets/Global_Feature_Badge_Foxtrot_600_aa341d2095.png?optimizer=image&width=128&quality=75">
+            </mj-group>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column width="80%">
+            <mj-group>
+                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b>ÁREA SERIES Y MÁS: </b> En esta edición, hemos trabajado incansablemente para ofrecerte los mejores contenidos multimedia. Desde series hasta otros aspectos de la cultura pop, te garantizamos una experiencia completa.</mj-text>
+            </mj-group>
+        </mj-column>
+        <mj-column width="25%">
+            <mj-group>
+                    <mj-image padding="10px" src="https://globalsymbols.com/uploads/production/image/imagefile/44855/17_44856_79521fe2-7b5d-490a-b440-aa8805d1ff4d.png">
+            </mj-group>
+        </mj-column>
+      </mj-section>
+
+      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column width="65%">
+            <mj-group>
+                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b>Área Cosplay: </b> El mundo del cosplay cobra vida en nuestro escenario propio. Aquí, tanto profesionales como aficionados comparten sus conocimientos y exhiben su creatividad a través de concursos y demostraciones. Únete a nosotros y sé parte del espectáculo.</mj-text>
+            </mj-group>
+        </mj-column>
+        <mj-column width="35%">
+            <mj-group>
+                    <mj-image padding="1px" src="https://static.vecteezy.com/system/resources/previews/026/583/337/non_2x/cute-kids-vampire-halloween-costume-cartoon-illustration-clipart-sticker-vector.jpg">
+            </mj-group>
+        </mj-column>
+      </mj-section>
+
+
+
+
+
+
+
+    </mj-wrapper>
+
+
+
+
+
+    <!-- Esto es para poner una LINEA -->
+    <mj-section padding-bottom="0px" padding-top="20px">
+      <mj-column>
+        <mj-divider border-width="2px" border-style="solid" border-color="black" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-text font-family="Rammetto One" font-font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
+          <h1>NOTICIAS</h1>
+          <h3><b>SALÓN DEL CÓMIC DE VALÈNCIA</b></h3>
+          <p>Conoce las últimas novedades del Salón</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Esto es para poner un GRUPO que hace que dos columnas no se solapen a la hora de pasarlo a móviles -->
+
+    
+
+    <mj-section>
+      <mj-column  background-color="#F2F2F2">
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/JOCROL-2024-1.jpg" alt="" ></mj-image>
+                  <mj-text padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                      <h2><b>La zona Joc&Rol regresa <i>(28/03/25)</i></b></h2> 
+                      <p font-family:  system-ui; text-align=center>La zona Joc&Rol del Salón del Cómic de València continúa su itinerancia por toda la Comunitat Valenciana y regresa con fuerza a la XI ComarCon de Torrevieja, el mayor evento de ocio alternativo y gratuito de España. Como siempre, lo hace de la mano del IVAJ y su Experiencia Carnet Jove, ofreciendo un espacio de entretenimiento y estrategia a todos los amantes de los juegos de mesa y rol.</p>
+                  </mj-text>
+
+            <mj-button
+            href="https://www.saloncomicvalencia.com/la-zona-jocrol-del-salon-del-comic-de-valencia-regresa-a-la-comar-con-de-torrevieja/"
+            font-size="14px"
+            font-weight="bold"
+            background-color="#000000"
+            color="#FFFFFF"
+            border-radius="5px"
+            align="left"
+            padding-bottom="20px"
+            >Ver más
+            </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+
+
+
+    <mj-section>
+      <mj-column  background-color="#F2F2F2">
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/DSF5042.jpg" alt=""></mj-image>
+        <mj-text padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+           <h2><b>Las ganadoras del Concurso Escolar <i>(11/03/25)</i></b></h2>
+            <p font-family:  system-ui; text-align=center>El Concurso Escolar del Salón del Cómic de València ya tiene ganadores. En esta edición, dedicada a homenajear al científico Santiago Ramón y Cajal, la vencedora en la categoría de Primaria ha sido Carla Martínez, alumna de 4º de Primaria del colegio Santa Teresa de Jesús, con su obra ‘El padre de la neurociencia’.</p>
+        </mj-text>
+
+            <mj-button
+            href="https://www.saloncomicvalencia.com/carla-martinez-aitana-llamas-y-mireia-fenollosa-ganadoras-del-concurso-escolar-del-salon-del-comic-de-valencia/"
+            font-size="14px"
+            font-weight="bold"
+            background-color="#000000"
+            color="#FFFFFF"
+            border-radius="5px"
+            align="left"
+            padding-bottom="20px"
+            >Ver más
+            </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    
+
+
+    <mj-section>
+      <mj-column  background-color="#F2F2F2">
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/02/SALON-DEL-COMIC-VALENCIA-1.jpg" alt="" ></mj-image>
+        <mj-text padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+           <h2><b>Cosplayers muestran su talento <i>(28/01/25)</i></b></h2>
+            <p font-family:  system-ui; text-align=center>Un año más, el universo Cosplay se cita en el Salón del Cómic de València y promete ofrecer una experiencia única para los amantes de esta disciplina. Además de los concursos, talleres, charlas y todo tipo de iniciativas organizadas por el Salón, esta nueva edición cuenta con la presencia de grandes figuras del cosplay como los fotógrafos especializados Guillermo García y VanePujol, Otherside Cosplay, Samar Cosplay, Artica Creations y,como figura internacional, el Captain Ghostly.</p>
+        </mj-text>
+
+            <mj-button
+            href="https://www.saloncomicvalencia.com/artistas-del-cosplay-muestran-todo-su-talento-en-el-salon-del-comic-de-valencia/"
+            font-size="14px"
+            font-weight="bold"
+            background-color="#000000"
+            color="#FFFFFF"
+            border-radius="5px"
+            align="left"
+            padding-bottom="20px"
+            >Ver más
+            </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column  background-color="#F2F2F2">
+        <mj-image height="300px" height="400px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/SALON-DEL-COMIC-DE-VALENCIA-2025-3-1.jpg" alt="" ></mj-image>
+        <mj-text padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+           <h2><b>La primera jornada del Salón del Cómic <i>(28/02/25)</i></b></h2>
+            <p font-family:  system-ui; text-align=center>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única en el Salón del Cómic de Valencia. Desde primera hora de la mañana de hoy viernes, han podido disfrutar de toda la oferta cultural que el Salón ha organizado para ellos.</p>
+ 
+        </mj-text>
+
+            <mj-button
+            href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/"
+            font-size="14px"
+            font-weight="bold"
+            background-color="#000000"
+            color="#FFFFFF"
+            border-radius="5px"
+            align="left"
+            padding-bottom="20px"
+            >Ver más
+            </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    
+        <mj-section>
+            <mj-group width="90%" padding-left="10px">
+                <mj-column width="33%" padding-left="20px" padding-right="20px">
+                        <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="150%">
+                            <p><b>Síguenos</b></p> 
+                        </mj-text>
+                    <mj-social align="left" font-size="15px" icon-size="35px" mode="horizontal">
+                        <mj-social-element src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
+                        </mj-social-element>
+                        <mj-social-element src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg" href="https://x.com/saloncomicvlc?lang=es">
+                        </mj-social-element>
+                        <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/saloncomicvalencia/?hl=es">
+                        </mj-social-element>
+                        <mj-social-element src="https://images.gutefrage.net/media/fragen/bilder/wie-steht-ihr-zu-tiktok/0_big.webp?v=1683898077000" href="https://www.tiktok.com/@saloncomicvalencia?lang=es">
+                        </mj-social-element>
+                        <mj-social-element src="https://icon-library.com/images/flickr-icon-vector/flickr-icon-vector-6.jpg" href="https://www.flickr.com/photos/feria-valencia/albums/72177720324129371/">
+                        </mj-social-element>
+                    </mj-social>
+                </mj-column>
+                <mj-column width="33%" padding-left="20px" padding-right="20px">
+                <mj-text  align="left" font-family="Helvetica,Arial,sans-serif" line-height="150%">
+                    <h2><b>Info</b></h2>
+                    <p>Contenidos</p>
+                    <p>Recibe nuestro newsletter</p>
+                    <p>Contacto</p>
+                </mj-text>
+                </mj-column>
+                <mj-column width="33%" padding-left="20px" padding-right="20px">
+                <mj-text  align="left" font-family="Helvetica,Arial,sans-serif"  line-height="150%">
+                    <h2><b>Legales</b></h2>
+                    <p>Aviso legal</p>
+                    <p>Política de cookies</p>
+                    <p>Política de privacidad</p>
+                </mj-text>
+                </mj-column>
+
+            </mj-group>
+
+                <mj-column width="100%" padding-left="20px" padding-right="10px">
+                    <mj-text padding-left="26px" font-family="Helvetica,Arial,sans-serif" line-height="150%">
+                        <h2><b>Organiza</b></h2>
+                    </mj-text align="left">
+                    <mj-image width="300px" src="https://fimma-maderalia.feriavalencia.com/wp-content/uploads/2019/02/LOGO-FERIA-VALENCIA-OK.jpg">
+                </mj-column>
+      
+
+
+      
+        </mj-section>
+
+        <mj-section>
+            <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="13px" line-height="150%">
+                © Feria Valencia - Todos los derechos reservados
+            </mj-text>
+        </mj-section>
+
+
+
+
+    </mj-section>
+
+
+
+
+  </mj-body>
+</mjml>
+
