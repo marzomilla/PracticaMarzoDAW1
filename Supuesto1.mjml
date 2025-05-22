@@ -4,9 +4,6 @@
     <mj-preview>Enterate de las noticias mas interesantes del Salón del Cómic de Valencia</mj-preview>
     <mj-attributes>
       <mj-text padding="0">
-      <mj-class name="blue" color="blue" />
-      <mj-class name="big" font-size="20px" />
-      <mj-class name="noticia" padding="20px" background-color="yellow"  />
 
 
       <mj-all font-family="Arial" /> 
@@ -56,7 +53,7 @@
 
 
         <mj-column border="1px solid #dddddd">
-            <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">Estamos emocionados por presentar una vez más un evento lleno de pasión y creatividad que hará vibrar a todos los amantes del cómic y la cultura pop. Del 28 de febrero al 2 de marzo, te esperamos en una experiencia única que fusiona el cómic, el cosplay, los juegos de mesa, las series, el arte, y mucho más. Prepárate para una aventura inolvidable, ¡porque el Salón del Cómic te tiene preparado un mundo de diversión!</mj-text>
+            <mj-text mj-class="uno">Estamos emocionados por presentar una vez más un evento lleno de pasión y creatividad que hará vibrar a todos los amantes del cómic y la cultura pop. Del 28 de febrero al 2 de marzo, te esperamos en una experiencia única que fusiona el cómic, el cosplay, los juegos de mesa, las series, el arte, y mucho más. Prepárate para una aventura inolvidable, ¡porque el Salón del Cómic te tiene preparado un mundo de diversión!</mj-text>
             <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="10px 10px" />
         </mj-column>
 
@@ -72,7 +69,7 @@
 
         <mj-column width="35%">
             <mj-group>
-                    <mj-image padding="1px" src="https://purepng.com/public/uploads/large/purepng.com-spidermanspider-manspidermansuperherocomic-bookmarvel-comicscharacterstan-leegamesmovie-1701528656339wdumm.png">
+                    <mj-image padding="1px" src="https://www.gifss.com/comics/batman/images/robin.gif">
             </mj-group>
         </mj-column>
       </mj-section>
@@ -86,7 +83,7 @@
         </mj-column>
         <mj-column width="35%">
             <mj-group>
-                    <mj-image padding="1px" src="https://static.vecteezy.com/system/resources/previews/026/583/337/non_2x/cute-kids-vampire-halloween-costume-cartoon-illustration-clipart-sticker-vector.jpg">
+                    <mj-image  padding="5px" src="https://static.vecteezy.com/system/resources/previews/026/583/337/non_2x/cute-kids-vampire-halloween-costume-cartoon-illustration-clipart-sticker-vector.jpg">
             </mj-group>
         </mj-column>
       </mj-section>
@@ -121,12 +118,12 @@
 
 
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
-        <mj-column width="80%">
+        <mj-column width="70%">
             <mj-group>
                 <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b>ÁREA SERIES Y MÁS: </b> En esta edición, hemos trabajado incansablemente para ofrecerte los mejores contenidos multimedia. Desde series hasta otros aspectos de la cultura pop, te garantizamos una experiencia completa.</mj-text>
             </mj-group>
         </mj-column>
-        <mj-column width="25%">
+        <mj-column width="30%">
             <mj-group>
                     <mj-image padding="10px" src="https://globalsymbols.com/uploads/production/image/imagefile/44855/17_44856_79521fe2-7b5d-490a-b440-aa8805d1ff4d.png">
             </mj-group>
@@ -136,12 +133,12 @@
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
         <mj-column width="65%">
             <mj-group>
-                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b>Área Cosplay: </b> El mundo del cosplay cobra vida en nuestro escenario propio. Aquí, tanto profesionales como aficionados comparten sus conocimientos y exhiben su creatividad a través de concursos y demostraciones. Únete a nosotros y sé parte del espectáculo.</mj-text>
+                <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%"><b> Área ARTIST ALLEY	: </b> Embárcate en un viaje por la Avenida de los Artistas y descubre un mundo sin límites de inspiración. Echa un vistazo a los perfiles de los creadores y prepárate para un encuentro con el arte en su forma más pura.</mj-text>
             </mj-group>
         </mj-column>
         <mj-column width="35%">
             <mj-group>
-                    <mj-image padding="1px" src="https://static.vecteezy.com/system/resources/previews/026/583/337/non_2x/cute-kids-vampire-halloween-costume-cartoon-illustration-clipart-sticker-vector.jpg">
+                    <mj-image padding="1px" src="https://static.wikia.nocookie.net/kirby/images/7/7c/Kirby-Artista-KSA.png/revision/latest?cb=20200903182758">
             </mj-group>
         </mj-column>
       </mj-section>
