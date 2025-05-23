@@ -2,12 +2,38 @@
   <mj-head>
     <mj-title>Noticias Salón del Cómic</mj-title>
     <mj-preview>Enterate de las noticias mas interesantes del Salón del Cómic de Valencia</mj-preview>
-    <mj-attributes>
-      <mj-text padding="0">
+    <mj-style>
+      .boton {
+        display: inline-block;
+        border-radius: 4px;
+        background-color:rgb(0, 0, 0);
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+        width: 60px;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+
+      .boton:hover {
+        display: inline-block;
+        border-radius: 4px;
+        background-color:rgb(0, 0, 0);
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 14px;
+        padding: 12px;
+        width: 70px;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+
+    </mj-style>
 
 
-      <mj-all font-family="Arial" /> 
-    </mj-attributes>
   </mj-head>
   <mj-body background-color="#FFFFFF">
 
@@ -17,35 +43,33 @@
         <mj-image padding="10px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/09/cropped-Logosin-2048x844.jpg">
       </mj-column>
       <mj-column width="60%">
-        <mj-navbar base-url="https://mjml.io" ico-color="#000000" align="center" padding-top="25px" padding-left="20px" padding-right="20px">
-            <mj-navbar-link href="/gettings-started-onboard" color="black" font-size="14px">Inicio</mj-navbar-link>
-            <mj-navbar-link href="/try-it-live" color="black" font-size="14px">Noticias</mj-navbar-link>
-            <mj-navbar-link href="/try-it-live" color="black" font-size="14px">Horario</mj-navbar-link>
-            <mj-navbar-link href="/components" color="black" font-size="14px">Nosotros</mj-navbar-link>
+        <mj-navbar base-url="https://mjml.io" ico-color="#000000" align="center" padding-top="30px" padding-left="5px" padding-right="5px">
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/" color="black" font-size="13px">Inicio</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/noticias-del-salon/" color="black" font-size="13px">Noticias</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/avance-programacion-2025/" color="black" font-size="13px">Actividades</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/contactar/" color="black" font-size="13px">Contacto</mj-navbar-link>
         </mj-navbar>
       </mj-column>
     </mj-section>
 
     <!-- Esto es para poner una LINEA -->
-    <mj-section padding-bottom="10px" padding-top="0px">
+    <mj-section padding-bottom="5px" padding-top="0px">
       <mj-column>
         <mj-divider border-width="2px" border-style="solid" border-color="black" />
       </mj-column>
     </mj-section>
 
     <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
-      <mj-column>
         <mj-text font-family="Rammetto One" font-font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
-          <h1>AGENDA</h1>
+          <h1 >AGENDA</h1>
           <h3>qué ver en el salón</h3>
         </mj-text>
-      </mj-column>
     </mj-section>
 
-    <mj-wrapper border="1px solid #000000" padding="30px">
-      <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px">
+    <mj-wrapper padding="25px">
+      <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" padding-bottom="6px">
         <mj-column>
-          <mj-image padding="0" height="280px" src="https://valenciacity.es/wp-content/uploads/Salon-C%C3%B3mic-Valencia-610x473.jpg">
+          <mj-image  src="https://i.ibb.co/8LdskyXy/Dise-o-sin-t-tulo.gif">
         </mj-column>
       </mj-section>
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
@@ -53,8 +77,7 @@
 
 
         <mj-column border="1px solid #dddddd">
-            <mj-text mj-class="uno">Estamos emocionados por presentar una vez más un evento lleno de pasión y creatividad que hará vibrar a todos los amantes del cómic y la cultura pop. Del 28 de febrero al 2 de marzo, te esperamos en una experiencia única que fusiona el cómic, el cosplay, los juegos de mesa, las series, el arte, y mucho más. Prepárate para una aventura inolvidable, ¡porque el Salón del Cómic te tiene preparado un mundo de diversión!</mj-text>
-            <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" padding="10px 10px" />
+            <mj-text  padding="20px" font-family="Verdana" padding-bottom="20px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">Estamos emocionados por presentar una vez más un evento lleno de pasión y creatividad que hará vibrar a todos los amantes del cómic y la cultura pop. Del 28 de febrero al 2 de marzo, te esperamos en una experiencia única que fusiona el cómic, el cosplay, los juegos de mesa, las series, el arte, y mucho más. Prepárate para una aventura inolvidable, ¡porque el Salón del Cómic te tiene preparado un mundo de diversión!</mj-text>
         </mj-column>
 
       </mj-section>
@@ -83,7 +106,7 @@
         </mj-column>
         <mj-column width="35%">
             <mj-group>
-                    <mj-image  padding="5px" src="https://static.vecteezy.com/system/resources/previews/026/583/337/non_2x/cute-kids-vampire-halloween-costume-cartoon-illustration-clipart-sticker-vector.jpg">
+                    <mj-image  padding="5px" src="https://cdn-icons-png.flaticon.com/512/949/949561.png">
             </mj-group>
         </mj-column>
       </mj-section>
@@ -138,17 +161,10 @@
         </mj-column>
         <mj-column width="35%">
             <mj-group>
-                    <mj-image padding="1px" src="https://static.wikia.nocookie.net/kirby/images/7/7c/Kirby-Artista-KSA.png/revision/latest?cb=20200903182758">
+                    <mj-image padding="1px" src="https://static.wikia.nocookie.net/clubpenguin/images/7/7f/Yellow-Puffle27.png/revision/latest/scale-to-width-down/250?cb=20140919224424&path-prefix=es">
             </mj-group>
         </mj-column>
       </mj-section>
-
-
-
-
-
-
-
     </mj-wrapper>
 
 
@@ -236,17 +252,7 @@
             <p font-family:  system-ui; text-align=center>Un año más, el universo Cosplay se cita en el Salón del Cómic de València y promete ofrecer una experiencia única para los amantes de esta disciplina. Además de los concursos, talleres, charlas y todo tipo de iniciativas organizadas por el Salón, esta nueva edición cuenta con la presencia de grandes figuras del cosplay como los fotógrafos especializados Guillermo García y VanePujol, Otherside Cosplay, Samar Cosplay, Artica Creations y,como figura internacional, el Captain Ghostly.</p>
         </mj-text>
 
-            <mj-button
-            href="https://www.saloncomicvalencia.com/artistas-del-cosplay-muestran-todo-su-talento-en-el-salon-del-comic-de-valencia/"
-            font-size="14px"
-            font-weight="bold"
-            background-color="#000000"
-            color="#FFFFFF"
-            border-radius="5px"
-            align="left"
-            padding-bottom="20px"
-            >Ver más
-            </mj-button>
+            <mj-button class="boton" href="https://www.saloncomicvalencia.com/artistas-del-cosplay-muestran-todo-su-talento-en-el-salon-del-comic-de-valencia/">Ver más</mj-button>
 
       </mj-column>
     </mj-section>
@@ -254,28 +260,43 @@
     <mj-section>
       <mj-column  background-color="#F2F2F2">
         <mj-image height="300px" height="400px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/SALON-DEL-COMIC-DE-VALENCIA-2025-3-1.jpg" alt="" ></mj-image>
-        <mj-text padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+        <mj-text padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
            <h2><b>La primera jornada del Salón del Cómic <i>(28/02/25)</i></b></h2>
             <p font-family:  system-ui; text-align=center>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única en el Salón del Cómic de Valencia. Desde primera hora de la mañana de hoy viernes, han podido disfrutar de toda la oferta cultural que el Salón ha organizado para ellos.</p>
- 
         </mj-text>
 
-            <mj-button
-            href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/"
-            font-size="14px"
-            font-weight="bold"
-            background-color="#000000"
-            color="#FFFFFF"
-            border-radius="5px"
-            align="left"
-            padding-bottom="20px"
-            >Ver más
-            </mj-button>
+            <mj-section>
+              <mj-column height="100px">
+                  <mj-text>
+                      <a href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/">
+                        <mj-button class="boton">
+                          <b>Ver más</b>
+                        </mj-button>
+                      </a>
+                  </mj-text>
+              </mj-column>
+            </mj-section>
+
+
 
       </mj-column>
     </mj-section>
 
-    
+    <mj-wrapper border="1px solid #000000" padding="30px">
+          <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px">
+            <mj-column>
+              <mj-image padding="0" height="280px" src="https://valenciacity.es/wp-content/uploads/Salon-C%C3%B3mic-Valencia-610x473.jpg">
+            </mj-column>
+          </mj-section>
+          <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+    </mj-wrapper>
+
+
+
+
+
+
+    <!--Aquí empieza el footer-->
         <mj-section>
             <mj-group width="90%" padding-left="10px">
                 <mj-column width="33%" padding-left="20px" padding-right="20px">
@@ -342,4 +363,5 @@
 
   </mj-body>
 </mjml>
+
 
