@@ -82,7 +82,7 @@
     <!-- Esto es para poner una BOTONERA -->
     <mj-section background-color="white"  full-width="full-width">
       <mj-column width="40%">
-        <mj-image padding="10px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/09/cropped-Logosin-2048x844.jpg">
+        <mj-image padding="10px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/logo.jpg">
       </mj-column>
       <mj-column width="60%">
         <mj-navbar ico-color="#000000" align="center" padding-top="40px" padding-left="5px" padding-right="5px" hamburger="hamburger">
@@ -111,7 +111,7 @@
     <mj-wrapper padding="25px" padding-top="6px">
       <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" padding-bottom="6px">
         <mj-column>
-          <mj-image  src="https://i.ibb.co/8LdskyXy/Dise-o-sin-t-tulo.gif">
+          <mj-image  src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/EVENTOgif.gif">
         </mj-column>
       </mj-section>
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
@@ -134,7 +134,7 @@
           </mj-column>
           <mj-column width="35%">
               <mj-group>
-                <mj-image padding="1px" src="https://www.gifss.com/comics/batman/images/robin.gif">
+                <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/robin.gif">
               </mj-group>
           </mj-column>
         </mj-group>
@@ -152,7 +152,7 @@
           </mj-column>
           <mj-column width="35%">
               <mj-group>
-                      <mj-image padding="6px" src="https://cdn-icons-png.flaticon.com/512/949/949561.png">
+                      <mj-image padding="6px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/cosplay.png">
               </mj-group>
           </mj-column>
         </mj-group>
@@ -170,7 +170,7 @@
           </mj-column>
           <mj-column width="35%">
               <mj-group>
-                      <mj-image padding="1px" src="https://m.media-amazon.com/images/I/61KSu7KJU-L._AC_UL320_.jpg"
+                      <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/dados.jpg"
               </mj-group>
           </mj-column>
         </mj-group>
@@ -190,7 +190,7 @@
             </mj-column>
             <mj-column width="25%">
                 <mj-group>
-                        <mj-image padding="1px" src="https://gocomicscmsassets.gocomics.com/assets/assets/Global_Feature_Badge_Foxtrot_600_aa341d2095.png?optimizer=image&width=128&quality=75">
+                        <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/leyendocomics.png">
                 </mj-group>
             </mj-column>
           </mj-group>
@@ -209,7 +209,7 @@
           </mj-column>
           <mj-column width="30%">
               <mj-group>
-                      <mj-image padding="10px" src="https://globalsymbols.com/uploads/production/image/imagefile/44855/17_44856_79521fe2-7b5d-490a-b440-aa8805d1ff4d.png">
+                      <mj-image padding="10px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/tele.png">
               </mj-group>
           </mj-column>
         </mj-group>
@@ -226,7 +226,7 @@
           </mj-column>
           <mj-column width="35%">
               <mj-group>
-                      <mj-image padding="1px" src="https://static.wikia.nocookie.net/clubpenguin/images/7/7f/Yellow-Puffle27.png/revision/latest/scale-to-width-down/250?cb=20140919224424&path-prefix=es">
+                      <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/arte.png">
               </mj-group>
           </mj-column>
         </mj-group>
@@ -253,7 +253,7 @@
     <!-- Esto es para poner un GRUPO que hace que dos columnas no se solapen a la hora de pasarlo a móviles -->
     <mj-section padding="20px">
       <mj-column  background-color="#F2F2F2">
-        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/JOCROL-2024-1.jpg" alt="" ></mj-image>
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/juegos.jpg" alt="" ></mj-image>
             <mj-text padding-bottom="20px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
               <h2><b>La zona Joc&Rol regresa <i>(28/03/25)</i></b></h2> 
               <p font-family:  system-ui; text-align=center>La zona Joc&Rol del Salón del Cómic de València continúa su itinerancia por toda la Comunitat Valenciana y regresa con fuerza a la XI ComarCon de Torrevieja, el mayor evento de ocio alternativo y gratuito de España. Como siempre, lo hace de la mano del IVAJ y su Experiencia Carnet Jove, ofreciendo un espacio de entretenimiento y estrategia a todos los amantes de los juegos de mesa y rol.</p>
@@ -274,7 +274,7 @@
 
     <mj-section padding="20px">
       <mj-column  background-color="#F2F2F2">
-        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/03/DSF5042.jpg" alt=""></mj-image>
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/premios.jpg" alt=""></mj-image>
         <mj-text padding-bottom="20px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
            <h2><b>Las ganadoras del Concurso Escolar <i>(11/03/25)</i></b></h2>
             <p font-family:  system-ui; text-align=center>El Concurso Escolar del Salón del Cómic de València ya tiene ganadores. En esta edición, dedicada a homenajear al científico Santiago Ramón y Cajal, la vencedora en la categoría de Primaria ha sido Carla Martínez, alumna de 4º de Primaria del colegio Santa Teresa de Jesús, con su obra ‘El padre de la neurociencia’.</p>
@@ -295,7 +295,7 @@
 
     <mj-section padding="20px">
       <mj-column  background-color="#F2F2F2">
-        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/02/SALON-DEL-COMIC-VALENCIA-1.jpg" alt="" ></mj-image>
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/sans.jpg" alt="" ></mj-image>
         <mj-text padding-bottom="20px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
            <h2><b>Cosplayers muestran su talento <i>(28/01/25)</i></b></h2>
             <p font-family:  system-ui; text-align=center>Un año más, el universo Cosplay se cita en el Salón del Cómic de València y promete ofrecer una experiencia única para los amantes de esta disciplina. Además de los concursos, talleres, charlas y todo tipo de iniciativas organizadas por el Salón, esta nueva edición cuenta con la presencia de grandes figuras del cosplay como los fotógrafos especializados Guillermo García y VanePujol, Otherside Cosplay, Samar Cosplay, Artica Creations y,como figura internacional, el Captain Ghostly.</p>
@@ -374,7 +374,7 @@
 
             <mj-section padding-top="0px">
               <mj-column>
-                <mj-image height="280px" padding-top="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2024/11/entrada_grupos2023-2048x186-1.jpg">
+                <mj-image height="280px" padding-top="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/entradas.jpg">
               </mj-column>
             </mj-section>
           </mj-section>
@@ -485,15 +485,15 @@
                             <p><b>Síguenos</b></p> 
                         </mj-text>
                     <mj-social align="left" font-size="15px" icon-size="35px" mode="horizontal">
-                        <mj-social-element src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/facebook.svg" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
                         </mj-social-element>
-                        <mj-social-element src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg" href="https://x.com/saloncomicvlc?lang=es">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/X.svg" href="https://x.com/saloncomicvlc?lang=es">
                         </mj-social-element>
                         <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/saloncomicvalencia/?hl=es">
                         </mj-social-element>
-                        <mj-social-element src="https://images.gutefrage.net/media/fragen/bilder/wie-steht-ihr-zu-tiktok/0_big.webp?v=1683898077000" href="https://www.tiktok.com/@saloncomicvalencia?lang=es">
+                        <mj-social-element src="https://github.com/marzomilla/PracticaMarzoDAW1/raw/refs/heads/main/IMG/tiktok.webp" href="https://www.tiktok.com/@saloncomicvalencia?lang=es">
                         </mj-social-element>
-                        <mj-social-element src="https://icon-library.com/images/flickr-icon-vector/flickr-icon-vector-6.jpg" href="https://www.flickr.com/photos/feria-valencia/albums/72177720324129371/">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/flickr.png" href="https://www.flickr.com/photos/feria-valencia/albums/72177720324129371/">
                         </mj-social-element>
                     </mj-social>
                 </mj-column>
@@ -519,7 +519,7 @@
                     <mj-text padding-left="26px" font-family="Helvetica,Arial,sans-serif" line-height="150%">
                         <h2><b>Organiza</b></h2>
                     </mj-text align="left">
-                    <mj-image width="300px" src="https://fimma-maderalia.feriavalencia.com/wp-content/uploads/2019/02/LOGO-FERIA-VALENCIA-OK.jpg">
+                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
                 </mj-column>
 
         </mj-section>
