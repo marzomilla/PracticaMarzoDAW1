@@ -62,15 +62,15 @@
 
       .boton2 {
         display: inline-block;
-        border-radius: 4px;
+        border-radius: 8px;
         background-color:rgb(0, 0, 0);
         border: none;
         color: #FFFFFF;
+        font-size: 15px;
+        padding: 14px;
+        width: auto;
         text-align: center;
-        font-size: 20px;
-        padding: 12px;
-        width: 434px;
-        text-align: center;
+        vertical-align: middle;
       }
 
     </mj-style>
@@ -355,33 +355,25 @@
     </mj-section>
 
     <mj-wrapper padding="25px" padding-top="6px">
-
-          <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" padding-bottom="0px">
+            <mj-section border="1px solid #aaaaaa" padding="20px" padding-bottom="0px">
+              <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
+                <b>INFORMACIÓN IMPORTANTE</b> <br> 
+                <ol>
+                  <li>Menores de 14 años tienen que ir acompañados</li>
+                  <li>De 14 a 16 años pueden entrar con autorización</li>
+                  <li>De 16 a 18 pueden entrar libremente siempre que no haya ningún contenido para mayores de edad</li>
+                </ol>
+              </mj-text>
             <mj-section>
-              <mj-column>
-                  <mj-group>
-                      <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
-                        <b>INFORMACIÓN IMPORTANTE</b> <br> 
-                        <ol>
-                          <li>Menores de 14 años tienen que ir acompañados</li>
-                          <li>De 14 a 16 años pueden entrar con autorización</li>
-                          <li>De 16 a 18 pueden entrar libremente siempre que no haya ningún contenido para mayores de edad</li>
-                        </ol>
-                      </mj-text>
-                  </mj-group>
-              </mj-column>
-            </mj-section>
+
 
             <mj-section padding-top="0px">
               <mj-column>
                 <mj-image height="280px" padding-top="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/entradas.jpg">
               </mj-column>
             </mj-section>
-          </mj-section>
 
-
-          <mj-section align="left" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px">
-            <mj-group>
+            <mj-section align="left" border-top="1px solid #aaaaaa" border-right="1px solid #aaaaaa" border-left="1px solid #aaaaaa" padding="20px">
               <mj-column width="50%">
                   <mj-group>
                       <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="22px" line-height="150%">
@@ -402,21 +394,19 @@
                       </mj-text>
                   </mj-group>
               </mj-column>
-            </mj-group>
-          </mj-section>
+            </mj-section>
 
-              <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="19px" padding-top="0px" border-bottom="1px solid #aaaaaa">
-                <mj-column>
-                  <mj-text>
+
+              <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-top="0px" padding-left="79px" padding-right="79px" border-bottom="1px solid #aaaaaa">
+                  <mj-text text-align="center">
                     <a target="_blank" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista">
                       <mj-button class="boton2">
                         <b>👉Entradas Salón del Cómic 2024/2025👈</b>
                       </mj-button>
                     </a>
                   </mj-text>
-                </mj-column>
               </mj-section>
-          
+       
 
 
 
@@ -470,11 +460,7 @@
                       </mj-text>
               </mj-column>
             </mj-section>
-
-
-
-
-
+      
     </mj-wrapper>
 
     <!--Aquí empieza el footer-->
