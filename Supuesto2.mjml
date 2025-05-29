@@ -157,8 +157,38 @@
         </mj-text>
     </mj-section>
 
+        <mj-section background-color="black" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
+            <mj-text color="white" line-height="2em" letter-spacing="2.49px" align="center" font-size="15px">
+              <h2>¿Qué és el GP de motociclismo de Cheste?</h2>
+            </mj-text>
+        </mj-section>
+        
+      <mj-section background-color="black" padding-top="0px" padding-bottom="0px">
+        <mj-group>
+          <mj-column>
+              <mj-group>
+                <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/9.png">
+              </mj-group>
+          </mj-column>
+          <mj-column padding-right="20px">
+              <mj-group>
+                  <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
+                    El GP de motociclismo de Cheste, también conocido como Gran Premio de la Comunidad Valenciana, es la última carrera del Campeonato del Mundo de Motociclismo (MotoGP, Moto2 y Moto3) que se celebra cada año en el Circuito Ricardo Tormo en Cheste. Es un evento muy esperado por los aficionados españoles, que atrae a público de diversas nacionalidades.                    
+                  </mj-text>
+                </mj-group>
+          </mj-column>
+        </mj-group>
+      </mj-section>
 
-      <mj-section background-color="black">
+    <!-- Esto es para poner una LINEA -->
+    <mj-section background-color="black" padding="10px">
+      <mj-column>
+        <mj-divider border-width="3px" border-style="solid" border-color="white">
+      </mj-column>
+    </mj-section>
+    
+        
+      <mj-section background-color="black" padding-top="0px">
         <mj-group>
           <mj-column padding-left="20px">
               <mj-group>
@@ -170,21 +200,46 @@
           </mj-column>
           <mj-column>
               <mj-group>
-                <mj-image padding="1px" src="https://e00-especiales-marca.uecdn.es/100-deportistas-siglo/images/12.png">
+                <mj-image padding="0px" src="https://e00-especiales-marca.uecdn.es/100-deportistas-siglo/images/12.png">
               </mj-group>
           </mj-column>
         </mj-group>
       </mj-section>
+
+
+
+
+
+
 
       <mj-section background-color="black" padding-bottom="20px" padding-left="20px" padding-right="20px" padding-top="0px">
           <mj-text color="white" font-family="Monospace" font-size="16px" line-height="1em" letter-spacing="1px">
             Disfruta de ventajas como la Experiencia de Garaje del Equipo, Acceso al Paddock, Apariciones de Pilotos, Paseos por el Pit Lane y mucho más en España.        </mj-text>
       </mj-section>
 
+
+
+        <mj-section background-color="#E6323E" padding-right="20px" padding-left="20px" padding-top="0px" padding-bottom="0px">
+            <mj-text color="white" line-height="2em" letter-spacing="2.49px" align="center" font-size="15px">
+              <h2>¿Dónde es el evento?</h2>
+            </mj-text>
+        </mj-section>
+
+
+      <mj-section background-color="#E6323E" padding-top="0px" padding="20px">
+                  <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
+                    Presencia el emocionante final de la temporada de MotoGP™ en el Circuito Ricardo Tormo. <br> <br>
+                    Elige asientos de primera en la tribuna o mejora tu experiencia con la hospitalidad de MotoGP VIP Village™ en el Gran Premio Motul de la Comunidad Valenciana 2025. 
+                  </mj-text>
+      </mj-section>
+
+
+
+
     <!--Aquí empieza el footer-->
         <mj-section>
           <mj-group>
-            <mj-column width="45%">
+            <mj-column width="50%">
                     <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
                       <p><b>Síguenos:</b></p> 
                     </mj-text>
@@ -201,45 +256,41 @@
                         </mj-social-element>
                     </mj-social>
             </mj-column>
-            <mj-column width="55%">
+            <mj-column width="50%">
                     <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
                       <p><b>Patrocina:</b></p> 
                     </mj-text>
 
-                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+                    <mj-image width="180px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/55472a52ea56e3286d620c357e518cf8777552fb/IMG/Mapfre_logo.svg">
             </mj-column>
           </mj-group>
+        </mj-section>
+      <mj-section>
+
+        <mj-section  padding-right="20px" padding-left="20px" padding-top="0px" padding-bottom="0px">
+            <mj-text  align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
+              <p><b>Colabora:</b></p> 
+            </mj-text>
         </mj-section>
 
         <mj-section>
           <mj-group>
-
             <mj-column width="20%">
-                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
-                      <p><b>Patrocina:</b></p> 
-                    </mj-text
-                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+                    <mj-image src="">
             </mj-column>
           
             <mj-column width="20%">
-                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+                    <mj-image src="">
             </mj-column>          
             <mj-column width="20%">
-                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+                    <mj-image src="">
             </mj-column>          
             <mj-column width="20%">
-                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+                    <mj-image src="">
             </mj-column>          
-            <mj-column width="20%">
-                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
-            </mj-column>          
-            <mj-column width="55%">
-                    <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
-            </mj-column>
           </mj-group>
         </mj-section>
 
-    </mj-section>
   </mj-body>
 </mjml>
 
