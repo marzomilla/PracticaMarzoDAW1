@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-title>Noticias Salón del Cómic</mj-title>
-    <mj-preview>Enterate de las noticias mas interesantes del Salón del Cómic de Valencia</mj-preview>
+    <mj-title>Salón del Cómic</mj-title>
+    <mj-preview>Enterate de los temas mas interesantes del Salón del Cómic de Valencia</mj-preview>
     <mj-style>
       .boton {
         display: inline-block;

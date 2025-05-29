@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-title>Noticias Salón del Cómic</mj-title>
-    <mj-preview>Enterate de las noticias mas interesantes del Salón del Cómic de Valencia</mj-preview>
+    <mj-title>2Ruedas</mj-title>
+    <mj-preview>Salón de la Moto y la Bici de València</mj-preview>
     <mj-style>
       .boton {
         display: inline-block;
@@ -78,7 +78,7 @@
   </mj-head>
   <mj-body background-color="#FFFFFF">
 
-    <mj-section background-color="white"padding="8px" padding-top="20px">
+    <mj-section background-color="white" padding="8px" padding-top="20px">
         <mj-group>
             <mj-column width="22%">
                 <mj-group>
@@ -107,50 +107,47 @@
         </mj-group>
     </mj-section>
 
-    <mj-section background-color="black" padding="20px">
-
-        <mj-section background-color="black" padding="10px">
-            <mj-text color="white" line-height="2em" letter-spacing="4px" align="center" font-size="16px">
-            <h1>¡Regalamos 2 entradas para para ver el GP de motociclismo de Cheste!</h1>
+      <mj-section background-color="black">
+        <mj-section padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="5px">
+            <mj-text color="white" line-height="2em" letter-spacing="2px" align="center" font-size="28px">
+              <b>¡Regalamos 2 entradas para para ver el GP de motociclismo de Cheste!</b>
             </mj-text>
         </mj-section>
 
-
-        <mj-section padding="20px">
+        <mj-section padding="20px" padding-top="0px">
             <mj-group>
-                <mj-column width="30%">
+                <mj-column width="30%"padding-top="15px" padding-left="50px">
                     <mj-group>
-                        <mj-text font-size="30px" color="white" line-height="1.8em" letter-spacing="5px" align="center">
+                        <mj-text font-size="25px" color="white" line-height="1.8em" letter-spacing="4px" align="center" >
                             Faltan    
                         </mj-text>
                     </mj-group>
                 </mj-column>
                 <mj-column width="70%">
                     <mj-group>
-                            <mj-image padding="6px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/contador.gif">
+                            <mj-image padding="20px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/contador.gif">
                     </mj-group>
                 </mj-column>
             </mj-group>
         </mj-section>
 
         <mj-section background-color="black" padding="20px" padding-top="0px">
-            <mj-text font-size="30px" color="white" line-height="1em" letter-spacing="5px" align="center">
+            <mj-text font-size="25px" color="white" line-height="1em" letter-spacing="4px" align="center">
                 para que acabé el sorteo
             </mj-text>
         </mj-section>
+      </mj-section>
 
-    </mj-section>
 
 
-    <mj-section background-color="#E6323E" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-left="79px"  padding-bottom="16px" padding-right="79px">
-        <mj-text font-family="Gill Sans" font-size="23px" color="white" line-height="1.2em" letter-spacing="2px" align="center">
-            <b>Rellena el formulario y participa en el sorteo, haz click en el botón de abajo
+
+    <mj-section background-color="#E6323E" padding-left="79px"  padding-bottom="16px" padding-right="79px">
+        <mj-text font-family="Monospace" font-size="23px" color="white" line-height="1em" letter-spacing="1px" align="center">
+            <b>Completa el formulario antes del 1 de Septiembre</b>
         </mj-text>
-        
-
     </mj-section>
        
-    <mj-section padding-top="0px" background-color="#E6323E" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-left="79px"  padding-bottom="24px" padding-right="79px" border-bottom="1px solid #aaaaaa">
+    <mj-section padding-top="0px" background-color="#E6323E" padding-left="79px"  padding-bottom="24px" padding-right="79px">
         <mj-text>
             <a target="_blank" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista">
                 <mj-button class="boton2">
@@ -160,142 +157,40 @@
         </mj-text>
     </mj-section>
 
+      <mj-section background-color="black">
+        <mj-group>
+          <mj-column width="300px" padding-left="20px" padding="0px">
+              <mj-group>
+                <mj-text color="white" font-family="Monospace" font-size="16px" line-height="1em" letter-spacing="1px">
+                  
+                  Presencia el emocionante final de la temporada de MotoGP™ en el Circuito Ricardo Tormo. <br> <br>
+                  Elige asientos de primera en la tribuna o mejora tu experiencia con la hospitalidad de MotoGP VIP Village™ en el Gran Premio Motul de la Comunidad Valenciana 2025. 
+                </mj-text>
+              </mj-group>
+          </mj-column>
+          <mj-column width="300px" padding="0px">
+              <mj-group>
+                <mj-image width="600px" src="https://e00-especiales-marca.uecdn.es/100-deportistas-siglo/images/12.png">
+              </mj-group>
+          </mj-column>
+        </mj-group>
+      </mj-section>
 
-
-
-    <!--Aquí van las promociones-->
-    <!-- Esto es para poner una LINEA -->
-    <mj-section padding-bottom="0px" padding-top="20px">
-      <mj-column>
-        <mj-divider border-width="3px" border-style="solid" border-color="black" />
-      </mj-column>
+    <mj-section background-color="black" padding-bottom="20px" padding-left="20px" padding-right="20px" padding-top="0px">
+        <mj-text color="white" font-family="Monospace" font-size="16px" line-height="1em" letter-spacing="1px">
+          Disfruta de ventajas como la Experiencia de Garaje del Equipo, Acceso al Paddock, Apariciones de Pilotos, Paseos por el Pit Lane y mucho más en España.        </mj-text>
     </mj-section>
-
-    <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
-      <mj-column>
-        <mj-text font-family="Rammetto One" font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
-          <h3><b>¡Compra tus entradas ya mismo!</b></h3>
-          <p>Descuentos de hasta el <b>30%</b></p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <mj-wrapper padding="25px" padding-top="6px">
-            <mj-section border="1px solid #aaaaaa" padding="20px" padding-bottom="0px">
-              <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
-                <b>INFORMACIÓN IMPORTANTE</b> <br> 
-                <ol>
-                  <li>Menores de 14 años tienen que ir acompañados</li>
-                  <li>De 14 a 16 años pueden entrar con autorización</li>
-                  <li>De 16 a 18 pueden entrar libremente siempre que no haya ningún contenido para mayores de edad</li>
-                </ol>
-              </mj-text>
-            <mj-section>
-
-
-            <mj-section padding-top="0px">
-              <mj-column>
-                <mj-image height="280px" padding-top="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/entradas.jpg">
-              </mj-column>
-            </mj-section>
-
-            <mj-section align="left" border-top="1px solid #aaaaaa" border-right="1px solid #aaaaaa" border-left="1px solid #aaaaaa" padding="20px">
-              <mj-column width="50%">
-                  <mj-group>
-                      <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="22px" line-height="150%">
-                        <b>SALÓN del CÓMIC de VALÈNCIA</b> <br> Del 28 de Febrero al 2 de Marzo V-S : 11 - 20 h. D: 11- 19h.
-                      </mj-text>
-                  </mj-group>
-              </mj-column>
-              <mj-column width="50%">
-                  <mj-group>
-                      <mj-text align="right" padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="18px" line-height="150%">
-                        ¡¡¡Compra hoy tus entradas <br>
-                        para asistir al mayor <br>
-                        evento de comics, <br>
-                        anime, manga <br>
-                        y webtoon de <br> 
-                        Valencia!!! <br> 
-                        👇🎟️
-                      </mj-text>
-                  </mj-group>
-              </mj-column>
-            </mj-section>
-
-
-              <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-top="0px" padding-left="79px" padding-right="79px" border-bottom="1px solid #aaaaaa">
-                  <mj-text text-align="center">
-                    <a target="_blank" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista">
-                      <mj-button class="boton2">
-                        <b>👉Entradas Salón del Cómic 2024/2025👈</b>
-                      </mj-button>
-                    </a>
-                  </mj-text>
-              </mj-section>
        
 
 
-
-          <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa" padding-top="0px">
-              <mj-column>
-                <mj-table css-class="tabla">
-                  <caption font-family="Rammetto One" font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
-                    <h2>PRECIOS de las Entradas</h2>
-                    <h3>ENTRADAS ON LINE HASTA EL 03/03/2025 💸💰</h3>
-                  </camption>
-                  <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;">
-                    <th style="padding: 0 15px;"></th>
-                    <th style="padding: 0 15px;">viernes</th>
-                    <th style="padding: 0 15px;">sábado</th>
-                    <th style="padding: 0 15px;">domingo</th>
-                  </tr>
-                  <tr>
-                    <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Entrada Adulto</b></td>
-                    <td style="padding: 0 15px;">12€</td>
-                    <td style="padding: 0 15px;">15,5€</td>
-                    <td style="padding: 0 15px;">15€</td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Entrada Niño</b></td>
-                    <td style="padding: 0 15px;">9€</td>
-                    <td style="padding: 0 15px;">9€</td>
-                    <td style="padding: 0 15px;">9€</td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Pack Familiar (*)</b></td>
-                    <td style="padding: 0 15px;">36€</td>
-                    <td style="padding: 0 15px;">42€</td>
-                    <td style="padding: 0 15px;">42€</td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Pack Amigos (5 adultos)</b></td>
-                    <td style="padding: 0 15px;">50€</td>
-                    <td style="padding: 0 15px;">65€</td>
-                    <td style="padding: 0 15px;">65€</td>
-                  </tr>
-                </mj-table>
-              </mj-column>
-          </mj-section>
-
-            <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa" padding-top="20px">
-              <mj-column>
-                      <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
-                        <b>*Packs familia</b> sólo son válidos para dos adultos y dos menores entre 4 y 13 años. Recuerda que si compras una entrada de menor de 14 años tendrás que acreditar su edad en las taquillas. <br>  <br>    
-                        *LAS ENTRADA SON VÁLIDAS PARA UNA SOLA PERSONA Y VISITA (si se sale del recinto <b> NO se puede volver a entrar </b> con la misma entrada), <br>      <br>                   
-                        <b>Sólo se procederá a la devolución del importe de la entrada y cambios en caso de cancelación del evento</b>
-                      </mj-text>
-              </mj-column>
-            </mj-section>
       
-    </mj-wrapper>
 
     <!--Aquí empieza el footer-->
-        <mj-section>
-            <mj-group width="90%" padding-left="10px">
-                <mj-column width="34%" padding-left="15px" padding-right="15px">
-                        <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="150%">
-                            <p><b>Síguenos</b></p> 
-                        </mj-text>
+        <mj-section  padding-top="0px" background-color="white"padding-left="79px"  padding-bottom="24px" padding-right="79px">
+                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="150%">
+                      <p><b>Síguenos</b></p> 
+                    </mj-text>
+                
                     <mj-social align="left" font-size="15px" icon-size="35px" mode="horizontal">
                         <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/facebook.svg" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
                         </mj-social-element>
@@ -308,31 +203,12 @@
                         <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/flickr.png" href="https://www.flickr.com/photos/feria-valencia/albums/72177720324129371/">
                         </mj-social-element>
                     </mj-social>
-                </mj-column>
-                <mj-column width="33%" padding-left="20px" padding-right="20px">
-                <mj-text  align="left" font-family="Helvetica,Arial,sans-serif" line-height="150%">
-                    <h2><b>Info</b></h2>
-                    <p>Contenidos</p>
-                    <p>Recibe nuestro newsletter</p>
-                    <p>Contacto</p>
-                </mj-text>
-                </mj-column>
-                <mj-column width="33%" padding-left="20px" padding-right="20px">
-                <mj-text  align="left" font-family="Helvetica,Arial,sans-serif"  line-height="150%">
-                    <h2><b>Legales</b></h2>
-                    <p>Aviso legal</p>
-                    <p>Política de cookies</p>
-                    <p>Política de privacidad</p>
-                </mj-text>
-                </mj-column>
-            </mj-group>
-
-                <mj-column width="100%" padding-left="40px" padding-right="10px">
+                
                     <mj-text padding-left="26px" font-family="Helvetica,Arial,sans-serif" line-height="150%">
-                        <h2><b>Organiza</b></h2>
+                      <h2><b>Organiza</b></h2>
                     </mj-text align="left">
+                  
                     <mj-image width="300px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
-                </mj-column>
 
         </mj-section>
 
