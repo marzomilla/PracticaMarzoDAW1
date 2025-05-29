@@ -62,15 +62,14 @@
 
       .boton2 {
         display: inline-block;
-        border-radius: 8px;
+        border-radius: 0px;
         background-color:rgb(0, 0, 0);
         border: none;
-        color: #FFFFFF;
-        font-size: 15px;
-        padding: 14px;
+        color:rgb(255, 255, 255);
+        font-size: 18px;
+        padding: 16px;
         width: auto;
         text-align: center;
-        vertical-align: middle;
       }
 
     </mj-style>
@@ -108,27 +107,10 @@
         </mj-group>
     </mj-section>
 
-
-    <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-top="0px" padding-left="79px" padding-right="79px" border-bottom="1px solid #aaaaaa">
-        <mj-text text-align="center">
-            <a target="_blank" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista">
-                <mj-button class="boton2">
-                    <b>👉Entradas Salón del Cómic 2024/2025👈</b>
-              </mj-button>
-            </a>
-          </mj-text>
-    </mj-section>
-       
-
-
-
-
-
-
     <mj-section background-color="black" padding="20px">
 
-        <mj-section background-color="black" padding="20px">
-            <mj-text color="white" line-height="2em" letter-spacing="4px" align="center">
+        <mj-section background-color="black" padding="10px">
+            <mj-text color="white" line-height="2em" letter-spacing="4px" align="center" font-size="16px">
             <h1>¡Regalamos 2 entradas para para ver el GP de motociclismo de Cheste!</h1>
             </mj-text>
         </mj-section>
@@ -151,8 +133,8 @@
             </mj-group>
         </mj-section>
 
-        <mj-section background-color="black" padding="20px">
-            <mj-text font-size="30px" color="white" line-height="1.8em" letter-spacing="5px" align="center">
+        <mj-section background-color="black" padding="20px" padding-top="0px">
+            <mj-text font-size="30px" color="white" line-height="1em" letter-spacing="5px" align="center">
                 para que acabé el sorteo
             </mj-text>
         </mj-section>
@@ -160,9 +142,23 @@
     </mj-section>
 
 
+    <mj-section background-color="#E6323E" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-left="79px"  padding-bottom="16px" padding-right="79px">
+        <mj-text font-family="Gill Sans" font-size="23px" color="white" line-height="1.2em" letter-spacing="2px" align="center">
+            <b>Rellena el formulario y participa en el sorteo, haz click en el botón de abajo
+        </mj-text>
+        
 
-
-
+    </mj-section>
+       
+    <mj-section padding-top="0px" background-color="#E6323E" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-left="79px"  padding-bottom="24px" padding-right="79px" border-bottom="1px solid #aaaaaa">
+        <mj-text>
+            <a target="_blank" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista">
+                <mj-button class="boton2">
+                    <b>🏍️👉 Haz click para rellenar el formulario 👈🏍️</b>
+              </mj-button>
+            </a>
+        </mj-text>
+    </mj-section>
 
 
 
