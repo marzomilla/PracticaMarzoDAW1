@@ -3,66 +3,10 @@
     <mj-title>2Ruedas</mj-title>
     <mj-preview>Salón de la Moto y la Bici de València</mj-preview>
     <mj-style>
+
       .boton {
         display: inline-block;
-        border-radius: 4px;
-        background-color:rgb(0, 0, 0);
-        border: none;
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 15px;
-        padding: 14px;
-        width: 60px;
-        transition: all 0.5s;
-        cursor: pointer;
-      }
-
-      .texto{
-        padding:20px;
-        font-family:Verdana;
-        padding-bottom:5px;
-        padding-top:20px;
-        padding-left:20px;
-        padding-right:20px;
-        font-family:Helvetica,Arial,sans-serif;
-        font-size:"14px";
-        line-height:150%;
-      }
-
-      .tabla {
-        font-family: Arial, Helvetica, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-      }
-
-      .tabla td, .tabla th {
-        border: 1px solid #ddd;
-        padding: 12px;
-        font-size: 13px;
-      }
-
-      .tabla th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color:rgb(255, 225, 0) ;
-        color: black;
-        text-align: center;
-      }
-
-      .tabla tr {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color:rgb(255, 255, 255) ;
-        color: black;
-        text-align: center;
-      }
-      .tabla tr:nth-child(even){background-color: #f2f2f2;}
-
-      .boton2 {
-        display: inline-block;
-        border-radius: 0px;
+        border-radius: 6px;
         background-color:rgb(0, 0, 0);
         border: none;
         color:rgb(255, 255, 255);
@@ -86,7 +30,7 @@
                 </mj-group>
             </mj-column>
 
-            <mj-column width="4%">
+            <mj-column width="5%">
                 <mj-group>
                     <mj-image padding="0px" src="">
                 <mj-group>
@@ -98,7 +42,7 @@
                 <mj-group>
             </mj-column>
 
-            <mj-column width="26%">
+            <mj-column width="27%">
                 <mj-group>
                     <mj-image padding="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/moto2.gif">
                 <mj-group>
@@ -150,7 +94,7 @@
     <mj-section padding-top="0px" background-color="#E6323E" padding-left="79px"  padding-bottom="24px" padding-right="79px">
         <mj-text>
             <a target="_blank" href="https://dosruedas.feriavalencia.com/">
-                <mj-button class="boton2">
+                <mj-button class="boton">
                     <b>🏍️👉 Haz click para rellenar el formulario 👈🏍️</b>
               </mj-button>
             </a>
@@ -227,21 +171,35 @@
 
 
       <mj-section background-color="#E6323E" padding-top="0px" padding="20px">
-                  <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
-                    Presencia el emocionante final de la temporada de MotoGP™ en el Circuito Ricardo Tormo. <br> <br>
-                    Elige asientos de primera en la tribuna o mejora tu experiencia con la hospitalidad de MotoGP VIP Village™ en el Gran Premio Motul de la Comunidad Valenciana 2025. 
-                  </mj-text>
+            <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
+              El Gran Premio de motociclismo de Cheste, también conocido como el Gran Premio de la Comunitat Valenciana, se celebra en el Circuito Ricardo Tormo, en Cheste, Valencia.
+            </mj-text>
+      </mj-section>
+
+      <mj-section background-color="#E6323E" padding-top="0px" padding="20px">
+        <mj-column>
+          <mj-image src="" href=""></mj-image>
+        </mj-column>
       </mj-section>
 
 
 
 
+
     <!--Aquí empieza el footer-->
-        <mj-section>
+<mj-section>
           <mj-group>
-            <mj-column width="50%">
-                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
-                      <p><b>Síguenos:</b></p> 
+            <mj-column width="40%" padding-left="70px">
+                <mj-text font-family="Helvetica,Arial,sans-serif" line-height="200%"ç>
+                    <h2><b>Legales</b></h2>
+                    Aviso Legal
+                    Política de privacidad
+                    Política de cookies
+                </mj-text>
+            </mj-column>
+            <mj-column width="60%" padding-right="20px">
+                    <mj-text font-family="Helvetica,Arial,sans-serif" font-size="20px" padding-top="20px" line-height="150%">
+                      <b>Síguenos:</b>
                     </mj-text>
                     <mj-social icon-size="40px" mode="horizontal">
                         <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/facebook.svg" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
@@ -250,18 +208,29 @@
                         </mj-social-element>
                         <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/saloncomicvalencia/?hl=es">
                         </mj-social-element>
-                        <mj-social-element src="https://github.com/marzomilla/PracticaMarzoDAW1/raw/refs/heads/main/IMG/tiktok.webp" href="https://www.tiktok.com/@saloncomicvalencia?lang=es">
+                        <mj-social-element src="https://i.pinimg.com/736x/e4/15/d6/e415d6bd27900cc066d0b8b23a7f1055.jpg" href="https://www.tiktok.com/@saloncomicvalencia?lang=es">
                         </mj-social-element>
                         <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/flickr.png" href="https://www.flickr.com/photos/feria-valencia/albums/72177720324129371/">
                         </mj-social-element>
                     </mj-social>
             </mj-column>
-            <mj-column width="50%">
+
+          </mj-group>
+        </mj-section>
+
+        <mj-section>
+          <mj-group>
+            <mj-column width="42%">
+                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
+                      <p><b>Organiza:</b></p> 
+                    </mj-text>
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+            </mj-column>
+            <mj-column width="58%">
                     <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
                       <p><b>Patrocina:</b></p> 
                     </mj-text>
-
-                    <mj-image width="180px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/55472a52ea56e3286d620c357e518cf8777552fb/IMG/Mapfre_logo.svg">
+                    <mj-image padding-top="15px" width="180px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/55472a52ea56e3286d620c357e518cf8777552fb/IMG/Mapfre_logo.svg">
             </mj-column>
           </mj-group>
         </mj-section>
@@ -274,34 +243,47 @@
         </mj-section>
 
         <mj-section>
-          <mj-group>
-            <mj-column width="33%">
-                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+          <mj-group>            
+            <mj-column width="6%">
+                    <mj-image src="">
+            </mj-column>
+            <mj-column width="21%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/bela.png">
             </mj-column>
           
-            <mj-column width="33%">
+            <mj-column width="33%" padding-top="9px">
                     <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Imagotip_de_la_Generalitat_Valenciana.svg.png">
             </mj-column>          
-            <mj-column width="33%">
+            <mj-column width="33%" padding-top="25px">
                     <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/caixa_popular_logo_transparente.png">
             </mj-column>                  
+            <mj-column width="6%">
+                    <mj-image src="">
+            </mj-column>
           </mj-group>
         </mj-section>
 
         <mj-section>
           <mj-group>
-            <mj-column width="33%">
-                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/bela.png">
+            <mj-column width="34%" padding-top="8px">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/company_logo.png">
             </mj-column>
-          
+            <mj-column width="33%" padding-top="15px">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/5498a5c62c00b6a433368dabc5d5ec0c44d65bc6/IMG/escuela-conductores-logo_color.svg">
+            </mj-column>     
             <mj-column width="33%">
                     <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/arroz-dacsa-logo.png">
-            </mj-column>          
-            <mj-column width="33%">
-                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/5498a5c62c00b6a433368dabc5d5ec0c44d65bc6/IMG/escuela-conductores-logo_color.svg">
-            </mj-column>                  
+            </mj-column>           
           </mj-group>
         </mj-section>
+
+
+        <mj-section>
+            <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="13px" line-height="150%">
+                © 2Ruedas - Todos los derechos reservados
+            </mj-text>
+        </mj-section>
+
 
   </mj-body>
 </mjml>
