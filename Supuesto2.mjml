@@ -275,19 +275,31 @@
 
         <mj-section>
           <mj-group>
-            <mj-column width="20%">
-                    <mj-image src="">
+            <mj-column width="33%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
             </mj-column>
           
-            <mj-column width="20%">
-                    <mj-image src="">
+            <mj-column width="33%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Imagotip_de_la_Generalitat_Valenciana.svg.png">
             </mj-column>          
-            <mj-column width="20%">
-                    <mj-image src="">
+            <mj-column width="33%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/caixa_popular_logo_transparente.png">
+            </mj-column>                  
+          </mj-group>
+        </mj-section>
+
+        <mj-section>
+          <mj-group>
+            <mj-column width="33%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/bela.png">
+            </mj-column>
+          
+            <mj-column width="33%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/arroz-dacsa-logo.png">
             </mj-column>          
-            <mj-column width="20%">
-                    <mj-image src="">
-            </mj-column>          
+            <mj-column width="33%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/5498a5c62c00b6a433368dabc5d5ec0c44d65bc6/IMG/escuela-conductores-logo_color.svg">
+            </mj-column>                  
           </mj-group>
         </mj-section>
 
