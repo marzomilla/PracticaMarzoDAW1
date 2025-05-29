@@ -4,18 +4,6 @@
     <mj-preview>Salón de la Moto y la Bici de València</mj-preview>
     <mj-style>
 
-      .boton {
-        display: inline-block;
-        border-radius: 6px;
-        background-color:rgb(0, 0, 0);
-        border: none;
-        color:rgb(255, 255, 255);
-        font-size: 18px;
-        padding: 16px;
-        width: auto;
-        text-align: center;
-      }
-
     </mj-style>
 
 
@@ -91,14 +79,12 @@
         </mj-text>
     </mj-section>
        
-    <mj-section padding-top="0px" background-color="#E6323E" padding-left="79px"  padding-bottom="24px" padding-right="79px">
-        <mj-text>
-            <a target="_blank" href="https://dosruedas.feriavalencia.com/">
-                <mj-button class="boton">
-                    <b>🏍️👉 Haz click para rellenar el formulario 👈🏍️</b>
+    <mj-section padding-top="0px" background-color="#E6323E" padding-left="47px" padding-right="47px">
+      <mj-column>
+              <mj-button font-weight="bold" align="center" font-size="18px" color="rgb(255, 255, 255)" background-color="black" target="_blank" href="https://dosruedas.feriavalencia.com/">
+                    Haz click para rellenar el formulario
               </mj-button>
-            </a>
-        </mj-text>
+      </mj-column>
     </mj-section>
 
         <mj-section background-color="black" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
@@ -107,7 +93,7 @@
             </mj-text>
         </mj-section>
         
-      <mj-section background-color="black" padding-top="0px" padding-bottom="0px">
+      <mj-section background-color="black" padding-top="0px" padding-bottom="30px">
         <mj-group>
           <mj-column>
               <mj-group>
@@ -124,13 +110,7 @@
         </mj-group>
       </mj-section>
 
-    <!-- Esto es para poner una LINEA -->
-    <mj-section background-color="black" padding="10px">
-      <mj-column>
-        <mj-divider border-width="3px" border-style="solid" border-color="white">
-      </mj-column>
-    </mj-section>
-    
+      
         
       <mj-section background-color="black" padding-top="0px">
         <mj-group>
@@ -156,38 +136,33 @@
 
 
 
-      <mj-section background-color="black" padding-bottom="20px" padding-left="20px" padding-right="20px" padding-top="0px">
+      <mj-section background-color="black" padding-bottom="25px" padding-left="20px" padding-right="20px" padding-top="0px">
           <mj-text color="white" font-family="Monospace" font-size="16px" line-height="1em" letter-spacing="1px">
             Disfruta de ventajas como la Experiencia de Garaje del Equipo, Acceso al Paddock, Apariciones de Pilotos, Paseos por el Pit Lane y mucho más en España.        </mj-text>
       </mj-section>
 
 
 
-        <mj-section background-color="#E6323E" padding-right="20px" padding-left="20px" padding-top="0px" padding-bottom="0px">
+        <mj-section background-color="#E6323E" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
             <mj-text color="white" line-height="2em" letter-spacing="2.49px" align="center" font-size="15px">
               <h2>¿Dónde es el evento?</h2>
             </mj-text>
         </mj-section>
 
 
-      <mj-section background-color="#E6323E" padding-top="0px" padding="20px">
+      <mj-section background-color="#E6323E" padding-top="0px" padding="45px" padding-bottom="10px">
             <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
-              El Gran Premio de motociclismo de Cheste, también conocido como el Gran Premio de la Comunitat Valenciana, se celebra en el Circuito Ricardo Tormo, en Cheste, Valencia.
+              El Gran Premio de motociclismo de la Comunitat Valenciana, se celebra en el Circuito Ricardo Tormo, en Cheste, Valencia.
             </mj-text>
       </mj-section>
 
       <mj-section background-color="#E6323E" padding-top="0px" padding="20px">
         <mj-column>
-          <mj-image src="" href=""></mj-image>
+          <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/mapa.png" href="https://www.google.es/maps/place/Circuit+Ricardo+Tormo/@39.4840814,-0.6265732,17.58z/data=!4m6!3m5!1s0xd60f0b1c481589f:0x4436114509f14af4!8m2!3d39.4847195!4d-0.6265236!16zL20vMDcycW1x?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"></mj-image>
         </mj-column>
       </mj-section>
 
-
-
-
-
-    <!--Aquí empieza el footer-->
-<mj-section>
+        <mj-section padding-bottom="0px">
           <mj-group>
             <mj-column width="40%" padding-left="70px">
                 <mj-text font-family="Helvetica,Arial,sans-serif" line-height="200%"ç>
