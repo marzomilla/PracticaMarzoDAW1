@@ -13,99 +13,90 @@
     <mj-section background-color="white" padding="8px" padding-top="20px">
         <mj-group>
             <mj-column width="22%">
-                <mj-group>
                     <mj-image padding="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/moto1.gif">
-                </mj-group>
             </mj-column>
 
             <mj-column width="5%">
-                <mj-group>
                     <mj-image padding="0px" src="">
-                <mj-group>
             </mj-column>
 
             <mj-column width="46%">
-                <mj-group>
                     <mj-image padding-top="20px" padding="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Logo2Ruedas.png">
-                <mj-group>
             </mj-column>
 
             <mj-column width="27%">
-                <mj-group>
                     <mj-image padding="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/moto2.gif">
-                <mj-group>
             </mj-column>
             
         </mj-group>
     </mj-section>
 
-      <mj-section background-color="black">
-        <mj-section padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="5px">
-            <mj-text color="white" line-height="2em" letter-spacing="2px" align="center" font-size="28px">
+        <mj-section background-color="black" padding-right="10px" padding-left="10px" padding-top="10px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="35px" letter-spacing="2px" align="center" font-size="28px">
+              Hola {{nombre}} <br>
               <b>¡Regalamos 2 entradas para para ver el GP de motociclismo de Cheste!</b>
             </mj-text>
+          </mj-column>
         </mj-section>
 
-        <mj-section padding="20px" padding-top="0px">
+        <mj-section background-color="black" padding="20px" padding-top="0px" padding-bottom="0px">
             <mj-group>
-                <mj-column width="30%"padding-top="15px" padding-left="50px">
-                    <mj-group>
-                        <mj-text font-size="25px" color="white" line-height="1.8em" letter-spacing="4px" align="center" >
+                <mj-column width="0%"padding-top="15px" padding-left="50px"></mj-column>
+                <mj-column width="35%"padding-top="35px" padding-left="50px">
+                        <mj-text font-size="25px" color="white" line-height="40px" letter-spacing="4px" align="center" >
                             Faltan    
                         </mj-text>
-                    </mj-group>
                 </mj-column>
-                <mj-column width="70%">
-                    <mj-group>
-                            <mj-image padding="40px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/contador.gif">
-                    </mj-group>
+                <mj-column width="55%">
+                            <mj-image padding="40px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/contador.gif">
                 </mj-column>
+                <mj-column width="5%"padding-top="15px" padding-left="50px"></mj-column>
             </mj-group>
         </mj-section>
 
         <mj-section background-color="black" padding="20px" padding-top="0px">
-            <mj-text font-size="25px" color="white" line-height="1em" letter-spacing="4px" align="center">
+          <mj-column>
+            <mj-text font-size="25px" color="white" line-height="1px" letter-spacing="4px" align="center">
                 para que acabé el sorteo
             </mj-text>
+          </mj-column>
         </mj-section>
       </mj-section>
 
-
-
-
     <mj-section background-color="#E6323E" padding-left="79px"  padding-bottom="16px" padding-right="79px">
-        <mj-text font-family="Monospace" font-size="23px" color="white" line-height="1em" letter-spacing="1px" align="center">
+      <mj-column>
+        <mj-text font-family="Monospace" font-size="23px" color="white" line-height="30px" letter-spacing="1px" align="center">
             <b>Completa el formulario antes del 1 de Septiembre</b>
         </mj-text>
+      </mj-column>
     </mj-section>
        
     <mj-section padding-top="0px" background-color="#E6323E" padding-left="47px" padding-right="47px">
       <mj-column>
               <mj-button font-weight="bold" align="center" font-size="18px" color="rgb(255, 255, 255)" background-color="black" target="_blank" href="https://dosruedas.feriavalencia.com/">
-                    Haz click para rellenar el formulario
+                    👉 Haz click para rellenar el formulario 👈
               </mj-button>
       </mj-column>
     </mj-section>
 
         <mj-section background-color="black" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
-            <mj-text color="white" line-height="2em" letter-spacing="2.49px" align="center" font-size="15px">
+          <mj-column>
+            <mj-text color="white" line-height="20px" letter-spacing="1.5px" align="center" font-size="15px">
               <h2>¿Qué és el GP de motociclismo de Cheste?</h2>
             </mj-text>
+          </mj-column>
         </mj-section>
         
       <mj-section background-color="black" padding-top="0px" padding-bottom="30px">
         <mj-group>
           <mj-column>
-              <mj-group>
                 <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/9.png">
-              </mj-group>
           </mj-column>
           <mj-column padding-right="20px">
-              <mj-group>
                   <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
                     El GP de motociclismo de Cheste, también conocido como Gran Premio de la Comunidad Valenciana, es la última carrera del Campeonato del Mundo de Motociclismo (MotoGP, Moto2 y Moto3) que se celebra cada año en el Circuito Ricardo Tormo en Cheste. Es un evento muy esperado por los aficionados españoles, que atrae a público de diversas nacionalidades.                    
                   </mj-text>
-                </mj-group>
           </mj-column>
         </mj-group>
       </mj-section>
@@ -115,45 +106,40 @@
       <mj-section background-color="black" padding-top="0px">
         <mj-group>
           <mj-column padding-left="20px">
-              <mj-group>
                   <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
                     Presencia el emocionante final de la temporada de MotoGP™ en el Circuito Ricardo Tormo. <br> <br>
                     Elige asientos de primera en la tribuna o mejora tu experiencia con la hospitalidad de MotoGP VIP Village™ en el Gran Premio Motul de la Comunidad Valenciana 2025. 
                   </mj-text>
-                </mj-group>
           </mj-column>
           <mj-column>
-              <mj-group>
                 <mj-image padding="0px" src="https://e00-especiales-marca.uecdn.es/100-deportistas-siglo/images/12.png">
-              </mj-group>
           </mj-column>
         </mj-group>
       </mj-section>
 
-
-
-
-
-
-
       <mj-section background-color="black" padding-bottom="25px" padding-left="20px" padding-right="20px" padding-top="0px">
-          <mj-text color="white" font-family="Monospace" font-size="16px" line-height="1em" letter-spacing="1px">
-            Disfruta de ventajas como la Experiencia de Garaje del Equipo, Acceso al Paddock, Apariciones de Pilotos, Paseos por el Pit Lane y mucho más en España.        </mj-text>
+        <mj-column>
+          <mj-text color="white" font-family="Monospace" font-size="16px" line-height="20px" letter-spacing="1px">
+            Disfruta de ventajas como la Experiencia de Garaje del Equipo, Acceso al Paddock, Apariciones de Pilotos, Paseos por el Pit Lane y mucho más en España.
+          </mj-text>
+        </mj-column>
       </mj-section>
 
-
-
         <mj-section background-color="#E6323E" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
-            <mj-text color="white" line-height="2em" letter-spacing="2.49px" align="center" font-size="15px">
+          <mj-column>
+            <mj-text color="white" line-height="30px" letter-spacing="2.49px" align="center" font-size="15px">
               <h2>¿Dónde es el evento?</h2>
             </mj-text>
+          </mj-column>
         </mj-section>
 
 
       <mj-section background-color="#E6323E" padding-top="0px" padding="45px" padding-bottom="10px">
+        <mj-column>
             <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
               El Gran Premio de motociclismo de la Comunitat Valenciana, se celebra en el Circuito Ricardo Tormo, en Cheste, Valencia.
             </mj-text>
+        </mj-column>
       </mj-section>
 
       <mj-section background-color="#E6323E" padding-top="0px" padding="20px">
@@ -162,10 +148,12 @@
         </mj-column>
       </mj-section>
 
+    <!-- Esto es el footer -->
+
         <mj-section padding-bottom="0px">
           <mj-group>
             <mj-column width="40%" padding-left="70px">
-                <mj-text font-family="Helvetica,Arial,sans-serif" line-height="200%"ç>
+                <mj-text font-family="Helvetica,Arial,sans-serif" line-height="200%">
                     <h2><b>Legales</b></h2>
                     Aviso Legal
                     Política de privacidad
@@ -209,12 +197,13 @@
             </mj-column>
           </mj-group>
         </mj-section>
-      <mj-section>
 
-        <mj-section  padding-right="20px" padding-left="20px" padding-top="0px" padding-bottom="0px">
+        <mj-section padding-right="20px" padding-left="20px" padding-top="0px" padding-bottom="0px">
+          <mj-column>
             <mj-text  align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
               <p><b>Colabora:</b></p> 
             </mj-text>
+          </mj-column>
         </mj-section>
 
         <mj-section>
@@ -254,9 +243,11 @@
 
 
         <mj-section>
+          <mj-column>
             <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="13px" line-height="150%">
                 © 2Ruedas - Todos los derechos reservados
             </mj-text>
+          </mj-column>
         </mj-section>
 
 

@@ -102,10 +102,12 @@
     </mj-section>
 
     <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
-        <mj-text font-family="Rammetto One" font-font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
-          <h1 >AGENDA</h1>
-          <h3>qué ver en el salón</h3>
+      <mj-column>
+        <mj-text font-family="Rammetto One" font-weight="400" line-height="15px" letter-spacing="5px" color="black" align="center" font-size="18px">
+          <h1 >¡Hola {{nombre}}!</h1>
+          <h3>aquí tienes la Agenda del evento</h3>
         </mj-text>
+      </mj-column>
     </mj-section>
 
     <mj-wrapper padding="25px" padding-top="6px">
@@ -126,16 +128,12 @@
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
         <mj-group>
           <mj-column width="65%">
-              <mj-group>
                   <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
                   <b>Área CÓMIC: </b> Nuestra programación de cómic regresa con una explosión de talleres, charlas con autores/as, presentaciones y muchas otras actividades. <br> <br>
                   Con horarios y espacios variados, tendrás la oportunidad de conocer a tus creadores favoritos y sumergirte en el universo de las viñetas.</mj-text>
-              </mj-group>
           </mj-column>
           <mj-column width="35%">
-              <mj-group>
                 <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/robin.gif">
-              </mj-group>
           </mj-column>
         </mj-group>
       </mj-section>
@@ -144,16 +142,12 @@
         <mj-group>
 
           <mj-column width="65%">
-              <mj-group>
                   <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
                   <b>Área Cosplay: </b> El mundo del cosplay cobra vida en nuestro escenario propio. Únete a nosotros y sé parte del espectáculo. <br><br>
                   Aquí, tanto profesionales como aficionados comparten sus conocimientos y exhiben su creatividad a través de concursos y demostraciones.</mj-text>
-              </mj-group>
           </mj-column>
           <mj-column width="35%">
-              <mj-group>
                       <mj-image padding="6px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/cosplay.png">
-              </mj-group>
           </mj-column>
         </mj-group>
       </mj-section>
@@ -162,16 +156,12 @@
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
         <mj-group>
           <mj-column width="65%">
-              <mj-group>
                   <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
                   <b>ÁREA JOC & ROL: </b> Bajo un nuevo nombre, Joc & Rol, te invitamos a sumergirte en el emocionante mundo de los juegos de mesa y rol. <br><br>
                   Partidas, demostraciones y campeonatos te esperan en un área vibrante donde la diversión no conoce límites.</mj-text>
-              </mj-group>
           </mj-column>
           <mj-column width="35%">
-              <mj-group>
-                      <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/dados.jpg"
-              </mj-group>
+            <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/dados.jpg">
           </mj-column>
         </mj-group>
       </mj-section>
@@ -179,21 +169,15 @@
 
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
         <mj-group>
-          <mj-group>
             <mj-column width="75%">
-                <mj-group>
                     <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
                     <b> Área KIDS & COMIC: </b> Los más pequeños también tienen su espacio en el Salón. <br>
                     Nuestra misión es promover el aprendizaje a través del juego y la lectura, abriendo las puertas al mundo de los cómics y libros ilustrados infantiles. <br> <br>
                     ¡Déjalos soñar y disfrutar!</mj-text>
-                </mj-group>
             </mj-column>
             <mj-column width="25%">
-                <mj-group>
                         <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/leyendocomics.png">
-                </mj-group>
             </mj-column>
-          </mj-group>
         </mj-group>
       </mj-section>
 
@@ -201,16 +185,12 @@
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
         <mj-group>
           <mj-column width="70%">
-              <mj-group>
                   <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
                   <b>ÁREA SERIES Y MÁS: </b> En esta edición, hemos trabajado incansablemente para ofrecerte los mejores contenidos multimedia. <br><br>
                   Desde series hasta otros aspectos de la cultura pop, te garantizamos una experiencia completa.</mj-text>
-              </mj-group>
           </mj-column>
           <mj-column width="30%">
-              <mj-group>
                       <mj-image padding="10px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/tele.png">
-              </mj-group>
           </mj-column>
         </mj-group>
       </mj-section>
@@ -218,16 +198,12 @@
       <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
         <mj-group>
           <mj-column width="65%">
-              <mj-group>
                   <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
                   <b> Área ARTIST ALLEY	: </b> Embárcate en un viaje por la Avenida de los Artistas y descubre un mundo sin límites de inspiración. <br>
                   Echa un vistazo a los perfiles de los creadores y prepárate para un encuentro con el arte en su forma más pura.</mj-text>
-              </mj-group>
           </mj-column>
           <mj-column width="35%">
-              <mj-group>
                       <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/arte.png">
-              </mj-group>
           </mj-column>
         </mj-group>
       </mj-section>
@@ -242,7 +218,7 @@
 
     <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
       <mj-column>
-        <mj-text font-family="Rammetto One" font-font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
+        <mj-text font-family="Rammetto One" font-weight="400" line-height="20px" letter-spacing="5px" color="black" align="center" font-size="18px">
           <h1>NOTICIAS</h1>
           <h3><b>SALÓN DEL CÓMIC DE VALÈNCIA</b></h3>
           <p>Conoce las últimas novedades</p>
@@ -347,7 +323,7 @@
 
     <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
       <mj-column>
-        <mj-text font-family="Rammetto One" font-weight="400" line-height="1.8em" letter-spacing="5px" color="black" align="center" font-size="18px">
+        <mj-text font-family="Rammetto One" font-weight="400" line-height="20px" letter-spacing="5px" color="black" align="center" font-size="18px">
           <h3><b>¡Compra tus entradas ya mismo!</b></h3>
           <p>Descuentos de hasta el <b>30%</b></p>
         </mj-text>
@@ -355,60 +331,58 @@
     </mj-section>
 
     <mj-wrapper padding="25px" padding-top="6px">
-            <mj-section border="1px solid #aaaaaa" padding="20px" padding-bottom="0px">
-              <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
-                <b>INFORMACIÓN IMPORTANTE</b> <br> 
-                <ol>
-                  <li>Menores de 14 años tienen que ir acompañados</li>
-                  <li>De 14 a 16 años pueden entrar con autorización</li>
-                  <li>De 16 a 18 pueden entrar libremente siempre que no haya ningún contenido para mayores de edad</li>
-                </ol>
-              </mj-text>
-            <mj-section>
+            <mj-section border="1px solid #aaaaaa" border-bottom="0px solid #aaaaaa" padding="20px" padding-bottom="0px">
+              <mj-column>
+                <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
+                  <b>INFORMACIÓN IMPORTANTE</b> <br> 
+                  <ol>
+                    <li>Menores de 14 años tienen que ir acompañados</li>
+                    <li>De 14 a 16 años pueden entrar con autorización</li>
+                    <li>De 16 a 18 pueden entrar libremente siempre que no haya ningún contenido para mayores de edad</li>
+                  </ol>
+                </mj-text>
+              </mj-column>
+            </mj-section>
 
 
-            <mj-section padding-top="0px">
+            <mj-section padding-top="0px"  border-right="1px solid #aaaaaa"  border-left="1px solid #aaaaaa">
               <mj-column>
                 <mj-image height="280px" padding-top="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/entradas.jpg">
               </mj-column>
             </mj-section>
 
-            <mj-section align="left" border-top="1px solid #aaaaaa" border-right="1px solid #aaaaaa" border-left="1px solid #aaaaaa" padding="20px">
-              <mj-column width="50%">
-                  <mj-group>
-                      <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="22px" line-height="150%">
-                        <b>SALÓN del CÓMIC de VALÈNCIA</b> <br> Del 28 de Febrero al 2 de Marzo V-S : 11 - 20 h. D: 11- 19h.
-                      </mj-text>
-                  </mj-group>
-              </mj-column>
-              <mj-column width="50%">
-                  <mj-group>
-                      <mj-text align="right" padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="18px" line-height="150%">
-                        ¡¡¡Compra hoy tus entradas <br>
-                        para asistir al mayor <br>
-                        evento de comics, <br>
-                        anime, manga <br>
-                        y webtoon de <br> 
-                        Valencia!!! <br> 
-                        👇🎟️
-                      </mj-text>
-                  </mj-group>
-              </mj-column>
+            <mj-section border-top="1px solid #aaaaaa" border-right="1px solid #aaaaaa" border-left="1px solid #aaaaaa" padding="20px">
+              <mj-group>
+                <mj-column width="50%">
+                        <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="22px" line-height="150%">
+                          <b>SALÓN del CÓMIC de VALÈNCIA</b> <br> Del 28 de Febrero al 2 de Marzo V-S : 11 - 20 h. D: 11- 19h.
+                        </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                        <mj-text align="right" padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="18px" line-height="150%">
+                          ¡¡¡Compra hoy tus entradas <br>
+                          para asistir al mayor <br>
+                          evento de comics, <br>
+                          anime, manga <br>
+                          y webtoon de <br> 
+                          Valencia!!! <br> 
+                          👇🎟️
+                        </mj-text>
+                </mj-column>
+              </mj-group>
             </mj-section>
 
-
               <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-top="0px" padding-left="79px" padding-right="79px" border-bottom="1px solid #aaaaaa">
-                  <mj-text text-align="center">
+                <mj-column>
+                  <mj-text>
                     <a target="_blank" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista">
                       <mj-button class="boton2">
                         <b>👉Entradas Salón del Cómic 2024/2025👈</b>
                       </mj-button>
                     </a>
                   </mj-text>
+                </mj-column>
               </mj-section>
-       
-
-
 
           <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa" padding-top="0px">
               <mj-column>
@@ -465,7 +439,7 @@
 
     <!--Aquí empieza el footer-->
         <mj-section>
-            <mj-group width="90%" padding-left="10px">
+            <mj-group width="90%">
                 <mj-column width="34%" padding-left="15px" padding-right="15px">
                         <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="150%">
                             <p><b>Síguenos</b></p> 
@@ -511,9 +485,11 @@
         </mj-section>
 
         <mj-section>
+          <mj-column>
             <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="13px" line-height="150%">
                 © Feria Valencia - Todos los derechos reservados
             </mj-text>
+          </mj-column>
         </mj-section>
     </mj-section>
   </mj-body>
