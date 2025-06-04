@@ -111,8 +111,8 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="rgb(237, 237, 237)" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
-        <mj-column border="1px solid #dddddd">
+      <mj-section background-color="rgb(241, 241, 241)" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-column background-color="rgb(227, 227, 227)" border="3px solid #dddddd">
             <mj-text  padding="20px" font-family="Verdana" padding-bottom="20px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
             Estamos emocionados por presentar una vez más un evento lleno de pasión y creatividad que hará vibrar a todos los amantes del <i>cómic</i> y la <i>cultura pop</i>. <br> <br>
             Del <b>28 de febrero</b> al <b>2 de marzo</b>, te esperamos en una experiencia única que fusiona el cómic, el cosplay, los juegos de mesa, las series, el arte, y mucho más. <br> <br> 
@@ -124,11 +124,11 @@
         <mj-group>
           <mj-column width="65%">
                   <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
-                  <b>Área CÓMIC: </b> Nuestra programación de cómic regresa con una explosión de talleres, charlas con autores/as, presentaciones y muchas otras actividades. <br> <br>
+                  <b>Área CÓMIC: </b> Nuestra programación de cómic regresa con una explosión de talleres, charlas con autores/as, presentaciones y muchas otras actividades. <br>
                   Con horarios y espacios variados, tendrás la oportunidad de conocer a tus creadores favoritos y sumergirte en el universo de las viñetas.</mj-text>
           </mj-column>
           <mj-column width="35%">
-                <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/robin.gif">
+                <mj-image padding="1px" src="https://github.com/marzomilla/PracticaMarzoDAW1/raw/refs/heads/main/IMG/Robin.webp">
           </mj-column>
         </mj-group>
       </mj-section>
