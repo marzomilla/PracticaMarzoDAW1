@@ -94,13 +94,6 @@
       </mj-column>
     </mj-section>
 
-    <!-- Esto es para poner una LINEA -->
-    <mj-section padding-bottom="5px" padding-top="0px">
-      <mj-column>
-        <mj-divider border-width="3px" border-style="solid" border-color="black" />
-      </mj-column>
-    </mj-section>
-
     <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
       <mj-column>
         <mj-text font-family="Rammetto One" font-weight="400" line-height="15px" letter-spacing="5px" color="black" align="center" font-size="18px">
@@ -111,12 +104,14 @@
     </mj-section>
 
     <mj-wrapper padding="25px" padding-top="6px">
-      <mj-section border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" padding-bottom="6px">
+    
+      <mj-section background-color="rgb(237, 237, 237)" border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" padding-bottom="6px">
         <mj-column>
           <mj-image  src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/EVENTOgif.gif">
         </mj-column>
       </mj-section>
-      <mj-section border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+
+      <mj-section background-color="rgb(237, 237, 237)" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
         <mj-column border="1px solid #dddddd">
             <mj-text  padding="20px" font-family="Verdana" padding-bottom="20px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
             Estamos emocionados por presentar una vez más un evento lleno de pasión y creatividad que hará vibrar a todos los amantes del <i>cómic</i> y la <i>cultura pop</i>. <br> <br>
@@ -208,13 +203,6 @@
         </mj-group>
       </mj-section>
     </mj-wrapper>
-
-    <!-- Esto es para poner una LINEA -->
-    <mj-section padding-bottom="0px" padding-top="20px">
-      <mj-column>
-        <mj-divider border-width="3px" border-style="solid" border-color="black" />
-      </mj-column>
-    </mj-section>
 
     <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
       <mj-column>
@@ -314,12 +302,6 @@
     </mj-section>
 
     <!--Aquí van las promociones-->
-    <!-- Esto es para poner una LINEA -->
-    <mj-section padding-bottom="0px" padding-top="20px">
-      <mj-column>
-        <mj-divider border-width="3px" border-style="solid" border-color="black" />
-      </mj-column>
-    </mj-section>
 
     <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
       <mj-column>
