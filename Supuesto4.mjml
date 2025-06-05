@@ -44,8 +44,8 @@
         <!--En esta parte hablo de lo que promocionamos-->
         <mj-section padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="0px">
           <mj-column>
-            <mj-text color="white" line-height="30px" letter-spacing="2px" align="center" font-size="31px">
-              ¡Regalamos <b>2 entradas 🎟️🎟️</b> para ver el <b>GP de motociclismo de Cheste</b>!
+            <mj-text color="white" line-height="30px" letter-spacing="2px" align="center" font-size="30px">
+              ¡Regalamos <b>2 entradas🎟️🎟️</b>para ver el <b>GP de motociclismo de Cheste</b>!
             </mj-text>
           </mj-column>
         </mj-section>
@@ -214,9 +214,9 @@
                       <h2><b>Síguenos</b></h2>
                     </mj-text>
                     <mj-social icon-size="52px" mode="horizontal">
-                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/facebook.svg" href="https://www.facebook.com/2RuedasFeriaValencia/?locale=es_ES">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/2023_Facebook_icon.svg.png" href="https://www.facebook.com/2RuedasFeriaValencia/?locale=es_ES">
                         </mj-social-element>
-                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/X.svg" href="https://x.com/2ruedas_fv">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/X_logo_2023.svg.png" href="https://x.com/2ruedas_fv">
                         </mj-social-element>
                         <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/2ruedas.es/">
                         </mj-social-element>
@@ -260,7 +260,7 @@
                     <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="10%">
                       <p><h2>Patrocina</b></h2> 
                     </mj-text>
-                    <mj-image padding-top="15px" width="180px"  target="_blank" href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/55472a52ea56e3286d620c357e518cf8777552fb/IMG/Mapfre_logo.svg">
+                    <mj-image padding-top="15px" width="180px"  target="_blank" href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/MAPFRE.png">
             </mj-column>
           </mj-group>
         </mj-section>
@@ -301,7 +301,7 @@
                     <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/company_logo.png" target="_blank" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo">
             </mj-column>
             <mj-column width="33%" padding-top="15px">
-                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/5498a5c62c00b6a433368dabc5d5ec0c44d65bc6/IMG/escuela-conductores-logo_color.svg" target="_blank" href="https://www.escueladeconductores.es/">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/logo-escuela-conductores.png" target="_blank" href="https://www.escueladeconductores.es/">
             </mj-column>     
             <mj-column width="33%">
                     <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/arroz-dacsa-logo.png" target="_blank" href="https://arrozdacsa.com/">

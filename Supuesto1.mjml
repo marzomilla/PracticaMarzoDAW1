@@ -117,7 +117,7 @@
                   Con horarios y espacios variados, tendrás la oportunidad de conocer a tus creadores favoritos y sumergirte en el universo de las viñetas.</mj-text>
           </mj-column>
           <mj-column width="35%">
-                <mj-image padding="1px" src="https://github.com/marzomilla/PracticaMarzoDAW1/raw/refs/heads/main/IMG/Robin.webp">
+                <mj-image padding="5px" padding-top="30px" padding-bottom="30px"  src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Superman_shield.svg%20(1).png">
           </mj-column>
         </mj-group>
       </mj-section>
@@ -144,7 +144,7 @@
                   Partidas, demostraciones y campeonatos te esperan en un área vibrante donde la diversión no conoce límites.</mj-text>
           </mj-column>
           <mj-column width="35%">
-            <mj-image padding="1px" src="https://github.com/marzomilla/PracticaMarzoDAW1/raw/refs/heads/main/IMG/dices-160005_960_720.webp">
+            <mj-image padding="10px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/dados.png">
           </mj-column>
         </mj-group>
       </mj-section>
@@ -184,7 +184,7 @@
                   Prepárate para un encuentro con el arte en su forma más pura.</mj-text>
           </mj-column>
           <mj-column width="35%">
-                      <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/arte.png">
+                      <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/puffleAmarillo.png">
           </mj-column>
         </mj-group>
       </mj-section>
@@ -204,7 +204,7 @@
       <mj-column>
         <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/juegos.jpg" alt="" ></mj-image>
         <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
-              <h2><b>🎲La zona Joc&Rol regresa <i>(28/03/25)</i>🎲</b></h2> 
+              <h2>🎲 La zona Joc&Rol regresa <i>(28/03/25)</i></h2> 
               <p>La zona Joc&Rol del Salón del Cómic de València continúa su itinerancia por toda la Comunitat Valenciana y regresa con fuerza a la XI ComarCon de Torrevieja, el mayor evento de ocio alternativo y gratuito de España.</p>
         </mj-text>
       </mj-column>
@@ -229,9 +229,10 @@
     <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="0px">
       <mj-column>
         <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/premios.jpg" alt="" ></mj-image>
-        <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
-           <h2><b>​🏅​Ganadoras del Concurso Escolar <i>(11/03/25)​</i>​🏅</b></h2>
-            <p>El Concurso Escolar del Salón del Cómic de València ya tiene ganadores. La vencedora en la categoría de Primaria ha sido Carla Martínez, alumna de 4º de Primaria del colegio Santa Teresa de Jesús.</p>
+        <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="15px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+            <h2>​🏅 Ganadoras del Concurso Escolar<i>(11/03/25)​</i>​</h2>
+            <p>El Concurso Escolar del Salón del Cómic de València ya tiene ganadores. <br>
+            La vencedora en la categoría de Primaria ha sido Carla Martínez, alumna de 4º de Primaria del colegio Santa Teresa de Jesús.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -257,7 +258,7 @@
       <mj-column>
         <mj-image height="300px" height="400px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/sans.jpg" alt="" ></mj-image>
         <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
-          <h2><b>🥸Cosplayers muestran su talento <i>(28/01/25)</i>🥸</b></h2>
+          <h2>🥸 Cosplayers y su talento <i>(28/01/25)</i></h2>
           <p>Un año más, el universo Cosplay se cita en el Salón del Cómic de València y promete ofrecer una experiencia única para los amantes de esta disciplina.</p>
         </mj-text>
       </mj-column>
@@ -283,7 +284,7 @@
       <mj-column>
         <mj-image height="300px" height="400px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/SALON-DEL-COMIC-DE-VALENCIA-2025-3-1.jpg" alt="" ></mj-image>
         <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
-            <h2><b>🎟️La primera jornada del evento <i>(28/02/25)</i>🎟️</b></h2>
+            <h2>🎟️ La primera jornada <i>(28/02/25)</i></h2>
             <p font-family:  system-ui; text-align=center>Miles de jóvenes y escolares de toda la Comunitat valenciana han vivido una experiencia única en el Salón del Cómic de Valencia. </p>
         </mj-text>
       </mj-column>
@@ -370,7 +371,7 @@
         <mj-column>
           <mj-text font-family="Rammetto One" font-weight="400" line-height="30px" letter-spacing="1px" color="black" align="center" font-size="20px">
             <h1>PRECIOS de las Entradas</h1>
-            <h3>ENTRADAS ONLINE HASTA EL 03/03/2025💸</h3>
+            <h3>ENTRADAS ONLINE HASTA EL 03/03/2025</h3>
           </mj-text>
         </mj-column>
     </mj-section>
@@ -429,14 +430,14 @@
       <mj-group width="100%">
           <!--Redes Sociales-->
           
-          <mj-column width="33%" padding-left="35px">
+          <mj-column width="34%" padding-left="35px">
                   <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
                       <h2><b>Síguenos</b></h2> 
                   </mj-text>
-              <mj-social align="left" icon-size="45px" mode="horizontal" padding-bottom="16px">
-                  <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/facebook.svg" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
+              <mj-social align="left" icon-size="45px" mode="horizontal" padding-bottom="5px">
+                  <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/2023_Facebook_icon.svg.png" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
                   </mj-social-element>
-                  <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/X.svg" href="https://x.com/saloncomicvlc?lang=es">
+                  <mj-social-element  icon-size="40px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/X_logo_2023.svg.png" href="https://x.com/saloncomicvlc?lang=es">
                   </mj-social-element>
                   <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/saloncomicvalencia/?hl=es">
                   </mj-social-element>
@@ -447,7 +448,7 @@
               </mj-social>
           </mj-column>
 
-          <mj-column width="34%" padding-left="0px" padding-top="0px">
+          <mj-column width="33%" padding-left="0px" padding-top="0px">
             <mj-text  padding-bottom="0px" align="center" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
                 <h2><b>Información</b></h2>
             </mj-text>
