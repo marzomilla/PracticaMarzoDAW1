@@ -3,14 +3,18 @@
     <mj-title>2Ruedas</mj-title>
     <mj-preview>Salón de la Moto y la Bici de València</mj-preview>
     <mj-style>
-
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     </mj-style>
 
 
   </mj-head>
   <mj-body background-color="#FFFFFF">
 
-    <mj-section background-color="white" padding="8px" padding-top="20px">
+    <mj-section background-color="white" padding="8px" padding-top="20px" padding-bottom="20px">
         <mj-group>
             <mj-column width="22%">
                     <mj-image padding="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/moto1.gif">
@@ -21,177 +25,234 @@
             </mj-column>
 
             <mj-column width="46%">
-                    <mj-image padding-top="20px" padding="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Logo2Ruedas.png">
+                    <mj-image padding-top="20px" padding="0px" target="_blank" href="https://dosruedas.feriavalencia.com/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Logo2Ruedas.png">
             </mj-column>
 
             <mj-column width="27%">
                     <mj-image padding="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/moto2.gif">
             </mj-column>
-            
         </mj-group>
     </mj-section>
 
-        <mj-section background-color="black" padding-right="10px" padding-left="10px" padding-top="10px" padding-bottom="0px">
+      <mj-wrapper background-color="black" padding="28px">
+        <mj-section padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="0px">
           <mj-column>
-            <mj-text color="white" line-height="35px" letter-spacing="2px" align="center" font-size="28px">
-              Hola {{nombre}} <br>
-              <b>¡Regalamos 2 entradas para para ver el GP de motociclismo de Cheste!</b>
+            <mj-text color="white" line-height="30px" letter-spacing="2px" align="center" font-size="28px">
+              <h3 padding-bottom="0px">🏁 Hola {{nombre}} 🏁</h3>
+              ¡Regalamos <b>2 entradas 🎟️🎟️</b> para ver el <b>GP de motociclismo de Cheste</b>!
             </mj-text>
           </mj-column>
         </mj-section>
 
-        <mj-section background-color="black" padding="20px" padding-top="0px" padding-bottom="0px">
+        <mj-section padding="10px" padding-top="0px" padding-bottom="10px">
             <mj-group>
-                <mj-column width="0%"padding-top="15px" padding-left="50px"></mj-column>
-                <mj-column width="35%"padding-top="35px" padding-left="50px">
+                <mj-column width="0%" padding-left="50px"></mj-column>
+                <mj-column width="38%"padding-top="20px" padding-left="50px">
                         <mj-text font-size="25px" color="white" line-height="40px" letter-spacing="4px" align="center" >
                             Faltan    
                         </mj-text>
                 </mj-column>
                 <mj-column width="55%">
-                            <mj-image padding="40px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/contador.gif">
+                            <mj-image padding="20px" padding-bottom="20px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/contador.gif">
                 </mj-column>
-                <mj-column width="5%"padding-top="15px" padding-left="50px"></mj-column>
+                <mj-column width="7%"padding-top="15px" padding-left="50px"></mj-column>
             </mj-group>
         </mj-section>
 
-        <mj-section background-color="black" padding="20px" padding-top="0px">
+        <mj-section padding="35px" padding-top="0px">
           <mj-column>
-            <mj-text font-size="25px" color="white" line-height="1px" letter-spacing="4px" align="center">
-                para que acabé el sorteo
+            <mj-text font-size="24px" color="white" line-height="0px" letter-spacing="3px" align="center">
+                ⌛ para que acabé el sorteo ⏳
             </mj-text>
           </mj-column>
         </mj-section>
-      </mj-section>
 
-    <mj-section background-color="#E6323E" padding-left="79px"  padding-bottom="16px" padding-right="79px">
+    <mj-section background-color="rgb(221, 32, 32)" padding-left="79px"  padding-bottom="0px" padding-right="79px" border-radius="10px 10px 0px 0px">
       <mj-column>
-        <mj-text font-family="Monospace" font-size="23px" color="white" line-height="30px" letter-spacing="1px" align="center">
-            <b>Completa el formulario antes del 1 de Septiembre</b>
+        <mj-text font-family="Monospace" font-size="23px" color="white" line-height="30px" letter-spacing="3px" align="center">
+            <b><i>Completa el formulario antes del 1 de Septiembre</i></b>
         </mj-text>
       </mj-column>
     </mj-section>
        
-    <mj-section padding-top="0px" background-color="#E6323E" padding-left="47px" padding-right="47px">
+    <mj-section padding-top="0px" background-color="rgb(221, 32, 32)" padding-left="47px" padding-right="47px" border-radius="0px 0px 10px 10px">
       <mj-column>
-              <mj-button font-weight="bold" align="center" font-size="18px" color="rgb(255, 255, 255)" background-color="black" target="_blank" href="https://dosruedas.feriavalencia.com/">
-                    👉 Haz click para rellenar el formulario 👈
+              <mj-button font-weight="bold" align="center" font-size="22px" color="rgb(255, 255, 255)" background-color="black" target="_blank" href="https://dosruedas.feriavalencia.com/">
+                🏍️ Rellena el formulario 🏍️
               </mj-button>
       </mj-column>
     </mj-section>
 
-        <mj-section background-color="black" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
+        <mj-section></mj-section>
+        <mj-section padding="0px" border-top="7px dashed rgb(255, 255, 255)"  padding-bottom="40px"></mj-section>
+
+
+        <mj-section border-radius="10px 10px 0px 0px"  background-color="rgb(15, 15, 15)" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
           <mj-column>
-            <mj-text color="white" line-height="20px" letter-spacing="1.5px" align="center" font-size="15px">
+            <mj-text color="white" line-height="40px" letter-spacing="2px" align="center" font-size="22px">
               <h2>¿Qué és el GP de motociclismo de Cheste?</h2>
             </mj-text>
           </mj-column>
         </mj-section>
         
-      <mj-section background-color="black" padding-top="0px" padding-bottom="30px">
+      <mj-section background-color="rgb(15, 15, 15)" background-color="black" padding-top="0px" padding-bottom="10px">
         <mj-group>
-          <mj-column>
+          <mj-column width="45%">
                 <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/9.png">
           </mj-column>
-          <mj-column padding-right="20px">
-                  <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
-                    El GP de motociclismo de Cheste, también conocido como Gran Premio de la Comunidad Valenciana, es la última carrera del Campeonato del Mundo de Motociclismo (MotoGP, Moto2 y Moto3) que se celebra cada año en el Circuito Ricardo Tormo en Cheste. Es un evento muy esperado por los aficionados españoles, que atrae a público de diversas nacionalidades.                    
+          <mj-column width="55%">
+                  <mj-text color="white" font-size="17px" letter-spacing="2px" line-height="120%">
+                    El GP de motociclismo de Cheste, también conocido como Gran Premio de la Comunidad Valenciana, es la última carrera del Campeonato del Mundo de Motociclismo (MotoGP, Moto2 y Moto3) que se celebra cada año en el Circuito Ricardo Tormo en Cheste.                   
                   </mj-text>
           </mj-column>
         </mj-group>
       </mj-section>
 
-      
-        
-      <mj-section background-color="black" padding-top="0px">
+      <mj-section background-color="rgb(15, 15, 15)" background-color="black" padding-top="0px">
         <mj-group>
-          <mj-column padding-left="20px">
-                  <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
-                    Presencia el emocionante final de la temporada de MotoGP™ en el Circuito Ricardo Tormo. <br> <br>
+          <mj-column padding-left="20px" width="55%">
+                  <mj-text color="white" font-size="17px" letter-spacing="2px" line-height="120%">
+                  <br>
                     Elige asientos de primera en la tribuna o mejora tu experiencia con la hospitalidad de MotoGP VIP Village™ en el Gran Premio Motul de la Comunidad Valenciana 2025. 
                   </mj-text>
           </mj-column>
-          <mj-column>
+          <mj-column width="45%">
                 <mj-image padding="0px" src="https://e00-especiales-marca.uecdn.es/100-deportistas-siglo/images/12.png">
           </mj-column>
         </mj-group>
       </mj-section>
 
-      <mj-section background-color="black" padding-bottom="25px" padding-left="20px" padding-right="20px" padding-top="0px">
+      <mj-section border-radius="0px 0px 10px 10px"  background-color="rgb(15, 15, 15)" background-color="black" padding-bottom="25px" padding-left="20px" padding-right="20px" padding-top="0px">
         <mj-column>
-          <mj-text color="white" font-family="Monospace" font-size="16px" line-height="20px" letter-spacing="1px">
+          <mj-text  color="white" font-size="17px" letter-spacing="2px" line-height="120%">
             Disfruta de ventajas como la Experiencia de Garaje del Equipo, Acceso al Paddock, Apariciones de Pilotos, Paseos por el Pit Lane y mucho más en España.
           </mj-text>
         </mj-column>
       </mj-section>
 
-        <mj-section background-color="#E6323E" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="0px">
+        <mj-section></mj-section>
+        <mj-section padding="0px" border-top="7px dashed rgb(255, 255, 255)"  padding-bottom="40px"></mj-section>
+
+        <mj-section background-color="rgb(221, 32, 32)" border-radius="10px 10px 0px 0px"  background-color="rgb(15, 15, 15)" padding-right="10px" padding-left="10px" padding-top="10px" padding-bottom="0px">
           <mj-column>
-            <mj-text color="white" line-height="30px" letter-spacing="2.49px" align="center" font-size="15px">
+            <mj-text color="white" line-height="35px" letter-spacing="2.3px" align="center" font-size="15px">
+              <h2>¡También puedes comprar entradas sin participar en el sorteo!</h2>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="rgb(221, 32, 32)" background-color="rgb(15, 15, 15)" padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="35px" letter-spacing="2px" font-size="16px">
+              🏁 <b><u>Acceso gratuito</u></b>: para niños menores de <b>6 años </b> sin derecho a asiento. Menores siempre acompañados de un Adulto con entrada.<br>
+              🏁 <b><u>Descuento Junior</u></b>: desde los 6 hasta los 14 años disponible 50% de descuento. <br>
+              🏁 <b><u>Discapacitados</u></b>: Gradas no accesibles para PMR (persona con movilidad reducida). Personas que requieran silla de ruedas contacten con el Circuit. <br>
+              <b><i>* Una vez adquiridas las entradas no se admitirán cambios ni devoluciones</i></b>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+      <mj-section background-color="rgb(221, 32, 32)" padding-top="0px" padding-bottom="10px">
+        <mj-group>
+          <mj-column width="45%">
+                <mj-image padding="1px" src="">
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding-top="0px" background-color="rgb(221, 32, 32)" padding-left="47px" padding-right="47px" border-radius="0px 0px 10px 10px">
+        <mj-column>
+                <mj-button font-weight="bold" align="center" font-size="22px" color="rgb(255, 255, 255)" background-color="black" target="_blank" href="https://dosruedas.feriavalencia.com/">
+                  🏍️ Rellena el formulario 🏍️
+                </mj-button>
+        </mj-column>
+      </mj-section>
+
+
+        <mj-section></mj-section>
+        <mj-section padding="0px" border-top="7px dashed rgb(255, 255, 255)"  padding-bottom="40px"></mj-section>
+
+        <mj-section background-color="rgb(15, 15, 15)" border-radius="10px 10px 0px 0px" background-color="#E6323E" padding-right="20px" padding-left="20px" padding-top="5px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="30px" letter-spacing="2.49px" align="center" font-size="18px">
               <h2>¿Dónde es el evento?</h2>
             </mj-text>
           </mj-column>
         </mj-section>
 
 
-      <mj-section background-color="#E6323E" padding-top="0px" padding="45px" padding-bottom="10px">
+      <mj-section background-color="rgb(15, 15, 15)" padding-top="0px" padding="15px" padding-bottom="10px">
         <mj-column>
-            <mj-text font-family="Monospace" color="white" font-size="16px" line-height="120%">
+            <mj-text color="white" font-size="17px" letter-spacing="2px" line-height="120%">
               El Gran Premio de motociclismo de la Comunitat Valenciana, se celebra en el Circuito Ricardo Tormo, en Cheste, Valencia.
             </mj-text>
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#E6323E" padding-top="0px" padding="20px">
+      <mj-section background-color="rgb(15, 15, 15)"  border-radius="0px 0px 10px 10px"background-color="#E6323E" padding-top="0px" padding="20px">
         <mj-column>
           <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/mapa.png" href="https://www.google.es/maps/place/Circuit+Ricardo+Tormo/@39.4840814,-0.6265732,17.58z/data=!4m6!3m5!1s0xd60f0b1c481589f:0x4436114509f14af4!8m2!3d39.4847195!4d-0.6265236!16zL20vMDcycW1x?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"></mj-image>
         </mj-column>
       </mj-section>
 
+
+    </mj-wrapper>
+
     <!-- Esto es el footer -->
 
         <mj-section padding-bottom="0px">
           <mj-group>
-            <mj-column width="40%" padding-left="70px">
-                <mj-text font-family="Helvetica,Arial,sans-serif" line-height="200%">
-                    <h2><b>Legales</b></h2>
-                    Aviso Legal
-                    Política de privacidad
-                    Política de cookies
-                </mj-text>
-            </mj-column>
-            <mj-column width="60%" padding-right="20px">
-                    <mj-text font-family="Helvetica,Arial,sans-serif" font-size="20px" padding-top="20px" line-height="150%">
-                      <b>Síguenos:</b>
+
+            <mj-column width="55%" padding-left="20px" padding-right="20px">
+                    <mj-text font-family="Helvetica,Arial,sans-serif" font-size="16px" padding-top="10px" line-height="90%">
+                      <h2><b>Síguenos</b></h2>
                     </mj-text>
-                    <mj-social icon-size="40px" mode="horizontal">
-                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/facebook.svg" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
+                    <mj-social icon-size="52px" mode="horizontal">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/facebook.svg" href="https://www.facebook.com/2RuedasFeriaValencia/?locale=es_ES">
                         </mj-social-element>
-                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/X.svg" href="https://x.com/saloncomicvlc?lang=es">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/e98016f2693fbc03fd1fde356bc4466d54f0e6a8/IMG/X.svg" href="https://x.com/2ruedas_fv">
                         </mj-social-element>
-                        <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/saloncomicvalencia/?hl=es">
+                        <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/2ruedas.es/">
                         </mj-social-element>
-                        <mj-social-element src="https://i.pinimg.com/736x/e4/15/d6/e415d6bd27900cc066d0b8b23a7f1055.jpg" href="https://www.tiktok.com/@saloncomicvalencia?lang=es">
-                        </mj-social-element>
-                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/flickr.png" href="https://www.flickr.com/photos/feria-valencia/albums/72177720324129371/">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Youtube_logo.png" href="https://www.youtube.com/watch?v=7c2p-ntm50Q">
                         </mj-social-element>
                     </mj-social>
             </mj-column>
 
+            <mj-column width="45%" padding-right="60px" padding-top="0px">
+              <mj-text  padding-bottom="0px" align="center" padding-left="20px" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
+                  <h2><b>Legales</b></h2>
+              </mj-text>
+
+              <mj-button width="173px" padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://dosruedas.feriavalencia.com/aviso-legal/">
+                Aviso Legal
+              </mj-button>
+
+              <mj-button  padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://dosruedas.feriavalencia.com/politica-de-privacidad-2/">
+                Política de privacidad
+              </mj-button>
+
+              <mj-button  padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://dosruedas.feriavalencia.com/politica-de-cookies/">
+                Política de cookies
+              </mj-button>
+            </mj-column>
+            
           </mj-group>
         </mj-section>
 
-        <mj-section>
+        <mj-section padding-left="20px">
           <mj-group>
             <mj-column width="42%">
-                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
-                      <p><b>Organiza:</b></p> 
+                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="10%">
+                      <p><h2>Organiza</b></h2> 
                     </mj-text>
                     <mj-image  target="_blank" href="https://www.feriavalencia.com/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
             </mj-column>
-            <mj-column width="58%">
-                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
-                      <p><b>Patrocina:</b></p> 
+            <mj-column width="8%">
+            </mj-column>
+            <mj-column width="50%">
+                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="10%">
+                      <p><h2>Patrocina</b></h2> 
                     </mj-text>
                     <mj-image padding-top="15px" width="180px"  target="_blank" href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/55472a52ea56e3286d620c357e518cf8777552fb/IMG/Mapfre_logo.svg">
             </mj-column>
@@ -200,8 +261,8 @@
 
         <mj-section padding-right="20px" padding-left="20px" padding-top="0px" padding-bottom="0px">
           <mj-column>
-            <mj-text  align="left" font-family="Helvetica,Arial,sans-serif" font-size="20px" line-height="10%">
-              <p><b>Colabora:</b></p> 
+            <mj-text  align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="10%">
+              <p><h2>Colabora</b></h2> 
             </mj-text>
           </mj-column>
         </mj-section>
@@ -242,10 +303,9 @@
           </mj-group>
         </mj-section>
 
-
         <mj-section>
           <mj-column>
-            <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="13px" line-height="150%">
+            <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
                 © 2Ruedas - Todos los derechos reservados
             </mj-text>
           </mj-column>
