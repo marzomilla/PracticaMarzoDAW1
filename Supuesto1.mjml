@@ -428,6 +428,7 @@
     <mj-section padding-top="10px">
       <mj-group width="100%">
           <!--Redes Sociales-->
+          
           <mj-column width="33%" padding-left="35px">
                   <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
                       <h2><b>Síguenos</b></h2> 
