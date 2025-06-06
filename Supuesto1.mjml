@@ -69,7 +69,7 @@
       <mj-section padding-left="20px" padding-top="0px" padding-bottom="15px"border-top="8px dotted #aaaaaa"border-bottom="8px dotted #aaaaaa">
         <mj-column>
           <mj-text font-family="Optima, Arial, sans-serif" line-height="30px" letter-spacing="4px" color="black" align="center" font-size="18px">
-            <h1 >¡Hola {{nombre}}!</h1>
+            <h1 >¡Hola {{Nombre}}!</h1>
             <i>Pasate por el Salón del Cómic y disfruta con tus amigos de este evento único</i>
           </mj-text>
         </mj-column>

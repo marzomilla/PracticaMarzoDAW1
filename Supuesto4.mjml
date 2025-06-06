@@ -36,7 +36,7 @@
         <mj-section padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="0px">
           <mj-column>
             <mj-text color="white" line-height="30px" letter-spacing="2px" align="center" font-size="30px">
-              🏁 Hola {{nombre}} 🏁
+              🏁 Hola {{Nombre}} 🏁
             </mj-text>
           </mj-column>
         </mj-section>

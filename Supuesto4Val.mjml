@@ -1,0 +1,323 @@
+<mjml>
+  <mj-head>
+    <mj-title>2Ruedas</mj-title>
+    <mj-preview>Salón de la Moto y la Bici de València</mj-preview>
+    <mj-style>
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+
+    <!--Esta es la cabecera-->
+    <mj-section background-color="white" padding="8px" padding-top="20px" padding-bottom="20px">
+        <mj-group>
+            <mj-column width="22%">
+                    <mj-image padding="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/moto1.gif">
+            </mj-column>
+
+            <mj-column width="5%">
+                    <mj-image padding="0px" src="">
+            </mj-column>
+
+            <!--Este es el logo de la empresa "2Ruedas"-->
+            <mj-column width="46%">
+                    <mj-image padding-top="20px" padding="0px" target="_blank" href="https://dosruedas.feriavalencia.com/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Logo2Ruedas.png">
+            </mj-column>
+
+            <mj-column width="27%">
+                    <mj-image padding="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/moto2.gif">
+            </mj-column>
+        </mj-group>
+    </mj-section>
+
+      <!--Aquí empieza la información del Newsletter sobre el sorteo-->
+      <mj-wrapper background-color="black" padding="30px">
+
+        <!--Este es un mensaje de bienvenida personalizado con el nombre de la persona (Base de datos de mysql-server en AWS EC2, Instancia: SalonComic)-->
+        <mj-section padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="30px" letter-spacing="2px" align="center" font-size="30px">
+              🏁 Hola {{Nombre}} 🏁
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--En esta parte hablo de lo que promocionamos-->
+        <mj-section padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="30px" letter-spacing="2px" align="center" font-size="30px">
+            Regalem <b>2 entrades 🎟️🎟️</b> per a veure el <b>GP de motociclisme de Xest</b>!
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--He puesto un contador para que se hagan una idea de cuanto falta para que se acabe el sorteo-->
+        <mj-section padding="10px" padding-top="0px" padding-bottom="10px">
+            <mj-group>
+                <mj-column width="0%" padding-left="50px"></mj-column>
+                <mj-column width="38%"padding-top="20px" padding-left="50px" padding-bottom="20px">
+                        <mj-text font-size="25px" color="white" line-height="40px" letter-spacing="4px" align="center" >
+                            Falten    
+                        </mj-text>
+                </mj-column>
+                <mj-column width="55%">
+                            <mj-image padding="20px" padding-bottom="20px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/contador.gif">
+                </mj-column>
+                <mj-column width="7%"padding-top="15px" padding-left="50px"></mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section padding="35px" padding-top="0px">
+          <mj-column>
+            <mj-text font-size="24px" color="white" line-height="0px" letter-spacing="3px" align="center">
+            ⌛perquè acabe el sorteig⏳
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--Pongo un botón para que la gente haga el formulario-->
+        <mj-section background-color="rgb(221, 32, 32)" padding-left="79px"  padding-bottom="0px" padding-right="79px" border-radius="10px 10px 0px 0px">
+          <mj-column>
+            <mj-text font-family="Monospace" font-size="23px" color="white" line-height="30px" letter-spacing="3px" align="center">
+                <b><i>Completa el formulari abans de l’1 de setembre</i></b>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+       
+        <mj-section padding-top="0px" background-color="rgb(221, 32, 32)" padding-left="47px" padding-right="47px" border-radius="0px 0px 10px 10px">
+          <mj-column>
+                  <mj-button font-weight="bold" align="center" font-size="22px" color="rgb(255, 255, 255)" background-color="black" target="_blank" href="https://dosruedas.feriavalencia.com/">
+                    🏍️ Ompli el formulari 🏍️
+                  </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <mj-section></mj-section>
+        <mj-section padding="0px" border-top="7px dashed rgb(255, 255, 255)"  padding-bottom="40px"></mj-section>
+
+        <!--Esta sección sirve para que la gente que no sepa de que va el evento se pueda interesar para ir en un futuro-->
+        <mj-section border-radius="10px 10px 0px 0px"  background-color="rgb(15, 15, 15)" padding-right="20px" padding-left="20px" padding-top="10px" padding-bottom="10px">
+          <mj-column>
+            <mj-text color="white" line-height="40px" letter-spacing="2px" align="center" font-size="30px" font-weight="bold">
+              Què és el GP de motociclisme de Xest?
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        
+        <mj-section background-color="rgb(15, 15, 15)" background-color="black" padding-top="0px" padding-bottom="10px">
+          <mj-group>
+            <mj-column width="45%">
+                  <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/9.png">
+            </mj-column>
+            <mj-column width="55%">
+                <mj-text color="white" font-size="17px" letter-spacing="2px" line-height="120%">
+                    El Gran Premi de la Comunitat Valenciana és l’última cursa del Campionat del Món de Motociclisme (MotoGP, Moto2 i Moto3), que se celebra cada any al Circuit Ricardo Tormo de Xest.
+                </mj-text>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section background-color="rgb(15, 15, 15)" background-color="black" padding-top="0px">
+          <mj-group>
+            <mj-column padding-left="20px" width="55%">
+                    <mj-text color="white" font-size="17px" letter-spacing="2px" line-height="120%">
+                    <br>
+                        Tria seients de primera en la tribuna o millora la teua experiència amb l’hospitalitat del MotoGP VIP Village™ en el Gran Premi Motul de la Comunitat Valenciana 2025.
+                    </mj-text>
+            </mj-column>
+            <mj-column width="45%">
+                  <mj-image padding="0px" src="https://e00-especiales-marca.uecdn.es/100-deportistas-siglo/images/12.png">
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section border-radius="0px 0px 10px 10px"  background-color="rgb(15, 15, 15)" background-color="black" padding-bottom="25px" padding-left="20px" padding-right="20px" padding-top="0px">
+          <mj-column>
+            <mj-text  color="white" font-size="17px" letter-spacing="2px" line-height="120%">
+                Gaudeix d’avantatges com ara l’Experiència de Garatge de l’Equip, Accés al Paddock, Aparicions de Pilots, Passejades pel Pit Lane i molt més a Espanya.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section></mj-section>
+        <mj-section padding="0px" border-top="7px dashed rgb(255, 255, 255)"  padding-bottom="40px"></mj-section>
+
+        <!--Aquí hablo mas en profundidad de como funciona la compra de entradas para algunas personas-->
+        <mj-section background-color="rgb(221, 32, 32)" border-radius="10px 10px 0px 0px"  background-color="rgb(15, 15, 15)" padding-right="10px" padding-left="10px" padding-top="10px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="35px" letter-spacing="2.3px" align="center" font-size="15px">
+              <h2>També pots comprar entrades sense participar en el sorteig!</h2>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="rgb(221, 32, 32)" background-color="rgb(15, 15, 15)" padding-right="10px" padding-left="10px" padding-top="0px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="35px" letter-spacing="2px" font-size="16px">
+                🏁 <b><u>Accés gratuït</u></b>: per a xiquets menors de <b>6 anys</b> sense dret a seient. Els menors han d’anar sempre acompanyats d’un adult amb entrada. <br>
+                🏁 <b><u>Descompte Junior</u></b>: del 6 als 14 anys, disponible un descompte del 50%. <br>
+                🏁 <b><u>Persones amb discapacitat</u></b>: Grades no accessibles per a PMR (persones amb mobilitat reduïda). Les persones que necessiten cadira de rodes han de contactar amb el Circuit. <br>
+               <b><i>* Una vegada adquirides les entrades no s’admetran canvis ni devolucions</i></b>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <!--Boton para ir a comprar las entradas-->
+        <mj-section padding-top="0px" padding-bottom="15px" background-color="rgb(221, 32, 32)" padding-left="47px" padding-right="47px">
+          <mj-column>
+                  <mj-button font-weight="bold" align="center" font-size="22px" color="rgb(255, 255, 255)" background-color="black" target="_blank" href="https://entradas.circuitvalencia.com/circuitvalencia/events/39772">
+                    🪙 Compra ja l’entrada 🪙
+                  </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding-top="0px" padding-bottom="0px" >
+          <mj-group>
+            <mj-column width="100%">
+                  <mj-image padding="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Copa.jpg" border-radius="0px 0px 10px 10px">
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section></mj-section>
+        <mj-section padding="0px" border-top="7px dashed rgb(255, 255, 255)"  padding-bottom="40px"></mj-section>
+
+        <!--Puse esta sección al final para que la gente no se pierda a la hora de ir al evento (si clickas la imagen te lleva a la ubicación en Google Maps)-->
+        <mj-section background-color="rgb(15, 15, 15)" border-radius="10px 10px 0px 0px" background-color="#E6323E" padding-right="20px" padding-left="20px" padding-top="5px" padding-bottom="0px">
+          <mj-column>
+            <mj-text color="white" line-height="30px" letter-spacing="2.49px" align="center" font-size="18px">
+              <h2>On és l’esdeveniment?</h2>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section background-color="rgb(15, 15, 15)" padding-top="0px" padding="15px" padding-bottom="10px">
+            <mj-column>
+                <mj-text color="white" font-size="17px" letter-spacing="2px" line-height="120%">
+                    El Gran Premi de motociclisme de la Comunitat Valenciana se celebra al Circuit Ricardo Tormo, a Xest, València.              
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="rgb(15, 15, 15)"  border-radius="0px 0px 10px 10px"background-color="#E6323E" padding-top="0px" padding="20px">
+          <mj-column>
+            <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/mapa.png" href="https://www.google.es/maps/place/Circuit+Ricardo+Tormo/@39.4840814,-0.6265732,17.58z/data=!4m6!3m5!1s0xd60f0b1c481589f:0x4436114509f14af4!8m2!3d39.4847195!4d-0.6265236!16zL20vMDcycW1x?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"></mj-image>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
+
+        <!-- Esto es el footer -->
+        <mj-section padding-bottom="0px">
+          <mj-group>
+            <!--Estas son las redes sociales-->
+            <mj-column width="55%" padding-left="20px" padding-right="20px" padding-bottom="110px">
+                    <mj-text font-family="Helvetica,Arial,sans-serif" font-size="16px" padding-top="10px" line-height="90%">
+                      <h2><b>Segueix-nos</b></h2>
+                    </mj-text>
+                    <mj-social icon-size="52px" mode="horizontal">
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/2023_Facebook_icon.svg.png" href="https://www.facebook.com/2RuedasFeriaValencia/?locale=es_ES">
+                        </mj-social-element>
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/X_logo_2023.svg.png" href="https://x.com/2ruedas_fv">
+                        </mj-social-element>
+                        <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/2ruedas.es/">
+                        </mj-social-element>
+                        <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Youtube_logo.png" href="https://www.youtube.com/watch?v=7c2p-ntm50Q">
+                        </mj-social-element>
+                    </mj-social>
+            </mj-column>
+
+            <mj-column width="45%" padding-right="60px" padding-top="0px">
+              <mj-text  padding-bottom="0px" align="center" padding-left="20px" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
+                  <h2><b>Legals</b></h2>
+              </mj-text>
+
+              <mj-button width="173px" padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://dosruedas.feriavalencia.com/aviso-legal/">
+                Avis Legal
+              </mj-button>
+
+              <mj-button  padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://dosruedas.feriavalencia.com/politica-de-privacidad-2/">
+                Política de privacitat
+              </mj-button>
+
+              <mj-button  padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://dosruedas.feriavalencia.com/politica-de-cookies/">
+                Política de cookies
+              </mj-button>
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <!-- Y estas las empresas relacionadas con este evento (si les haces click te llevan a la web de la empresa) -->
+        <mj-section padding-left="20px">
+          <mj-group>
+            <mj-column width="42%">
+                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="10%">
+                      <p><h2>Organitza</b></h2> 
+                    </mj-text>
+                    <mj-image  target="_blank" href="https://www.feriavalencia.com/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+            </mj-column>
+            <mj-column width="8%">
+            </mj-column>
+            <mj-column width="50%">
+                    <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="10%">
+                      <p><h2>Patrocina</b></h2> 
+                    </mj-text>
+                    <mj-image padding-top="15px" width="180px"  target="_blank" href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/MAPFRE.png">
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section padding-right="20px" padding-left="20px" padding-top="0px" padding-bottom="0px">
+          <mj-column>
+            <mj-text  align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="10%">
+              <p><h2>Colabora</b></h2> 
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section>
+          <mj-group>            
+            <mj-column width="6%">
+                    <mj-image src="">
+            </mj-column>
+                    
+            <mj-column width="33%" padding-top="9px">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Imagotip_de_la_Generalitat_Valenciana.svg.png" target="_blank" href="https://www.gva.es/va/inicio/presentacion"> 
+            </mj-column>      
+            <mj-column width="21%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/bela.png" target="_blank" href="https://maximo-moto.com/">
+            </mj-column>
+    
+            <mj-column width="33%" padding-top="25px">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/caixa_popular_logo_transparente.png" target="_blank" href="https://www.caixapopular.es/es">
+            </mj-column>                  
+            <mj-column width="6%">
+                    <mj-image src="">
+            </mj-column>
+          </mj-group>
+        </mj-section>
+
+        <mj-section>
+          <mj-group>
+            <mj-column width="34%" padding-top="8px">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/company_logo.png" target="_blank" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo">
+            </mj-column>
+            <mj-column width="33%" padding-top="15px">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/logo-escuela-conductores.png" target="_blank" href="https://www.escueladeconductores.es/">
+            </mj-column>     
+            <mj-column width="33%">
+                    <mj-image src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/arroz-dacsa-logo.png" target="_blank" href="https://arrozdacsa.com/">
+            </mj-column>           
+          </mj-group>
+        </mj-section>
+
+        <mj-section>
+          <mj-column>
+            <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                © 2Ruedas - Tots el drets reservats
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+  </mj-body>
+</mjml>
+
+

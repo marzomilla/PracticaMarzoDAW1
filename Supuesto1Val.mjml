@@ -1,0 +1,515 @@
+<mjml>
+  <mj-head>
+    <mj-title>Salón del Cómic</mj-title>
+    <mj-preview>Enterate dels temes mes interessants del Saló del Còmic de València</mj-preview>
+    <mj-style>
+      .texto{
+        padding:20px;
+        font-family:Verdana;
+        padding-bottom:5px;
+        padding-top:20px;
+        padding-left:20px;
+        padding-right:20px;
+        font-family:Helvetica,Arial,sans-serif;
+        font-size:"14px";
+        line-height:150%;
+      }
+
+      .tabla {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      
+      .tabla td, .tabla th {
+        border: 1px solid #ddd;
+        font-size: 15px;
+      }
+
+
+      .tabla th {
+        background-color:rgb(255, 225, 0) ;
+        text-align: center;
+      }
+
+      .tabla tr {
+        text-align: left;
+        background-color:rgb(255, 255, 255) ;
+        color: black;
+        text-align: center;
+      }
+      .tabla tr:nth-child(even){background-color: #f2f2f2;}
+    </mj-style>
+
+
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+
+    <!--Logo del evento-->
+    <mj-section background-color="white" full-width="full-width" padding-bottom="0px">
+        <mj-column width="50%">
+          <mj-image padding="10px" padding-bottom="0px" target="_blank" href="https://www.saloncomicvalencia.com/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/logo.jpg">
+        </mj-column>
+    </mj-section>
+
+    <!--Aquí esta la botonera-->
+    <mj-section background-color="white"  full-width="full-width" padding-top="0px" padding-bottom="5px">
+        <mj-column width="80%">
+          <mj-navbar ico-color="#000000" align="center" padding-top="40px" padding-left="5px" padding-right="5px" hamburger="hamburger">
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/noticias-del-salon/" font-weight="bold" font-size="22px">Notícies</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/avance-programacion-2025/" font-weight="bold" font-size="22px">Activitats</mj-navbar-link>
+            <mj-navbar-link href="https://www.saloncomicvalencia.com/contactar/" font-weight="bold" font-size="22px">Contacte</mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+    </mj-section>
+
+    <!--Este es el mensaje de introducción donde hago referencia a la base de datos de mi AWS EC2-->
+    <mj-wrapper padding="10px">
+      <mj-section padding-left="20px" padding-top="0px" padding-bottom="15px"border-top="8px dotted #aaaaaa"border-bottom="8px dotted #aaaaaa">
+        <mj-column>
+          <mj-text font-family="Optima, Arial, sans-serif" line-height="30px" letter-spacing="4px" color="black" align="center" font-size="18px">
+            <h1 >¡Hola {{Nombre}}!</h1>
+            <i>Passa’t pel Salón del Còmic i gaudeix amb els teus amics d’aquest esdeveniment únic</i>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!--Aquí empieza la primera sección llamada "AGENDA" donde haré un resumen de lo que habrá detro del evento-->
+    <mj-wrapper padding="15px" padding-top="0px">
+    
+      <!--Titulo de la sección-->
+      <mj-section  padding="10px" padding-bottom="6px">
+        <mj-column>
+          <mj-text padding="0px" font-family= "Untitled Serif" font-size= "28px" line-height= "20px" font-weight= "400" line-height="30px" letter-spacing="2px" color="black" align="center" font-size="26px">
+            <h1>Agenda</h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--Resumen de que es el Salón del Cómic de Valencia y cuando se celebra-->
+      <mj-section  padding-top="32px" background-color="#F2F2F2"  border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="28px">
+        <mj-column background-color="rgb(227, 227, 227)" border="6px double rgb(113, 113, 113)">
+            <mj-text font-family="Verdana" padding-bottom="20px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
+            Estem emocionats de presentar una vegada més un esdeveniment ple de passió i creativitat que farà vibrar a tots els amants del <i>còmic</i> i la <i>cultura pop</i>. <br> <br>
+            Del <b>28 de febrer</b> al <b>2 de març</b>, t’esperem en una experiència única que fusiona el còmic, el cosplay, els jocs de taula, les sèries, l’art, i molt més. <br> <br> 
+            Prepara’t per a una aventura inoblidable, perquè el <b><i>Saló del Còmic</i></b> et té preparat un món de diversió!
+            </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!--GIF creado por mi que se compone de 8 imágenes del evento-->
+      <mj-section  background-color="#F2F2F2" border-bottom="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="10px" padding-top="0px" padding-bottom="20px">
+        <mj-column>
+          <mj-image  src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/EVENTOgif.gif">
+        </mj-column>
+      </mj-section>
+
+    <!--Section para dejar un espacio entre ambas secciones-->
+    <mj-section padding="0px" padding-bottom="20px"></mj-section>
+
+      <!--Áreas del evento con un pequeño resumen e imagen-->
+      <mj-section background-color="rgb(227, 227, 227)" border-top="1px solid #aaaaaa" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="4px dashed    #aaaaaa">
+        <mj-group>
+          <mj-column width="65%">
+                  <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                    <b>Àrea CÒMIC: </b> La nostra programació de còmic torna amb una explosió de tallers, xarrades amb autors/es, presentacions i moltes altres activitats. <br>
+                    Amb horaris i espais variats, tindràs l’oportunitat de conéixer als teus creadors preferits i submergir-te en l’univers de les vinyetes.
+                  </mj-text>
+          </mj-column>
+          <mj-column width="35%">
+                <mj-image padding="5px" padding-top="30px" padding-bottom="30px"  src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/Superman_shield.svg%20(1).png">
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#F2F2F2" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="4px dashed #aaaaaa">
+        <mj-group>
+
+          <mj-column width="65%">
+                  <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                    <b>Àrea Cosplay: </b> El món del cosplay cobra vida al nostre escenari propi. Uneix-te a nosaltres i sigues part de l’espectacle. <br>
+                    Ací, tant professionals com aficionats comparteixen els seus coneixements i exhibeixen la seua creativitat a través de concursos i demostracions.
+                  </mj-text>
+          </mj-column>
+          <mj-column width="35%">
+                      <mj-image padding="6px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/cosplay.png">
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section  background-color="rgb(227, 227, 227)" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="4px dashed #aaaaaa">
+        <mj-group>
+          <mj-column width="65%">
+                  <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                    <b>Àrea JOC & ROL: </b> Sota un nou nom, Joc & Rol, t’invitem a submergir-te en el món emocionant dels jocs de taula i rol. <br>
+                    Partides, demostracions i campionats t’esperen en una àrea vibrant on la diversió no coneix límits.
+                  </mj-text>
+          </mj-column>
+          <mj-column width="35%">
+            <mj-image padding="10px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/dados.png">
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section  background-color="#F2F2F2" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="4px dashed #aaaaaa">
+        <mj-group>
+            <mj-column width="75%">
+                    <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                        <b>Àrea KIDS & CÒMIC: </b> Els més menuts també tenen el seu espai al Saló. <br>
+                        La nostra missió és promoure l’aprenentatge a través del joc i la lectura, obrint les portes al món dels còmics i llibres il·lustrats infantils.
+                    </mj-text>
+            </mj-column>
+            <mj-column width="25%">
+                        <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/leyendocomics.png">
+            </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section  background-color="rgb(227, 227, 227)" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="4px dashed #aaaaaa">
+        <mj-group>
+          <mj-column width="70%">
+                  <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                    <b>Àrea SÈRIES I MÉS: </b> Hem treballat incansablement per oferir-te els millors continguts multimèdia. <br>
+                    Des de sèries fins a altres aspectes de la cultura pop, et garantim una experiència completa.
+                  </mj-text>
+          </mj-column>
+          <mj-column width="30%">
+                      <mj-image padding="10px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/tele.png">
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#F2F2F2" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa">
+        <mj-group>
+          <mj-column width="65%">
+                  <mj-text padding="20px" font-family="Verdana" padding-bottom="5px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+                    <b>Àrea ARTIST ALLEY: </b> Embarca’t en un viatge per l’Avinguda dels Artistes i descobreix un món sense límits d’inspiració. <br>
+                    Prepara’t per a una trobada amb l’art en la seua forma més pura.
+                  </mj-text>
+          </mj-column>
+          <mj-column width="35%">
+                      <mj-image padding="1px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/puffleAmarillo.png">
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <!--Sección de NOTICIAS-->
+    <mj-section  full-width="full-width" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+          <mj-text padding="10px" padding-bottom="20px" font-family= "Untitled Serif" font-size= "26px" line-height= "20px" font-weight= "400" line-height="30px" letter-spacing="2px" color="black" align="center" font-size="26px">
+          <h1>NOTÍCIES</h1>
+          <p>Descobreix les últimes novetats</p>  
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/juegos.jpg" alt="" ></mj-image>
+        <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+            <h2>🎲 Torna la zona Joc&Rol <i>(28/03/25)</i></h2> 
+            <p>La zona Joc&Rol del Saló del Còmic de València continua la seua itinerància per tota la Comunitat Valenciana i torna amb força a la XI ComarCon de Torrevella, el major esdeveniment d’oci alternatiu i gratuït d’Espanya.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="20px">
+      <mj-group>
+        <mj-column width="30%">
+          <mj-button font-weight="bold" background-color="black" color="white" font-size="16px" target="_blank" href="https://www.saloncomicvalencia.com/la-zona-jocrol-del-salon-del-comic-de-valencia-regresa-a-la-comar-con-de-torrevieja/">
+            Veure més
+          </mj-button>
+        </mj-column>
+        <mj-column width="60%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="0px" padding-bottom="20px"></mj-section>
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image height="300px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/premios.jpg" alt="" ></mj-image>
+        <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="15px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+            <h2>🏅 Guanyadores del Concurs Escolar<i>(11/03/25)</i></h2>
+            <p>El Concurs Escolar del Saló del Còmic de València ja té guanyadores. <br>
+            La vencedora en la categoria de Primària ha sigut Carla Martínez, alumna de 4t de Primària del col·legi Santa Teresa de Jesús.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="20px">
+      <mj-group>
+        <mj-column width="30%">
+          <mj-button font-weight="bold" background-color="black" color="white" font-size="16px" target="_blank" href="https://www.saloncomicvalencia.com/carla-martinez-aitana-llamas-y-mireia-fenollosa-ganadoras-del-concurso-escolar-del-salon-del-comic-de-valencia/">
+            Veure més
+          </mj-button>
+        </mj-column>
+        <mj-column width="70%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="0px" padding-bottom="20px"></mj-section>
+
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image height="300px" height="400px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/sans.jpg" alt="" ></mj-image>
+        <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+            <h2>🥸 Cosplayers i el seu talent <i>(28/01/25)</i></h2>
+            <p>Un any més, l’univers Cosplay es cita al Saló del Còmic de València i promet oferir una experiència única per als amants d’aquesta disciplina.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="20px">
+      <mj-group>
+        <mj-column width="30%">
+          <mj-button font-weight="bold" background-color="black" color="white" font-size="16px" target="_blank" href="https://www.saloncomicvalencia.com/artistas-del-cosplay-muestran-todo-su-talento-en-el-salon-del-comic-de-valencia/">
+            Veure més
+          </mj-button>
+        </mj-column>
+        <mj-column width="70%">
+          <mj-text>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="0px" padding-bottom="20px"></mj-section>
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image height="300px" height="400px" padding-bottom="0px" padding-top="0px" padding-left="0px" padding-right="0px" src="https://www.saloncomicvalencia.com/wp-content/uploads/2025/02/SALON-DEL-COMIC-DE-VALENCIA-2025-3-1.jpg" alt="" ></mj-image>
+        <mj-text font-size="16px" padding-bottom="0px" padding-top="20px" padding-left="20px" padding-right="20px" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+            <h2>🎟️ La primera jornada <i>(28/02/25)</i></h2>
+            <p>Milers de joves i escolars de tota la Comunitat Valenciana han viscut una experiència única al Saló del Còmic de València.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F2F2F2" padding="0px" padding-bottom="20px">
+      <mj-group>
+        <mj-column width="30%">
+          <mj-button font-weight="bold" background-color="black" color="white" font-size="16px" target="_blank" href="https://www.saloncomicvalencia.com/miles-de-jovenes-viven-y-disfrutan-la-primera-jornada-del-salon-del-comic-de-valencia/">
+            Veure més
+          </mj-button>
+        </mj-column>
+        <mj-column width="70%">
+          <mj-text color="#F2F2F2">
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="0px" padding-bottom="20px"></mj-section>
+
+    <!--Aquí va la sección para comprar las ENTRADAS y ver los precios o promociones de estas.-->
+
+    <!--Titulo de la sección ENTRADAS-->
+    <mj-section  full-width="full-width" padding-top="15px" padding-bottom="0px">
+      <mj-column>
+        <mj-text padding="10px" padding-bottom="30px" font-family= "Untitled Serif" font-size= "29px" line-height= "40px" font-weight= "400" line-height="30px" letter-spacing="2px" color="black" align="center" font-size="26px">
+            <b>Compra ja les teues entrades!</b> <br>
+            Descomptes de fins al <b>30%</b>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--Información importante de las promociones-->
+    <mj-section padding-top="6px" background-color="#F2F2F2" border="1px solid #aaaaaa" border-bottom="0px solid #aaaaaa" padding="20px" padding-bottom="0px">
+    <mj-column>
+      <mj-text padding="20px" padding-top="20px" padding-bottom="0px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="17px" line-height="150%">
+        <b>INFORMACIÓ IMPORTANT</b><br> 
+        <ol>
+        <li>Menors de 14 anys han d’anar acompanyats</li>
+        <li>De 14 a 16 anys poden entrar amb autorització</li>
+        <li>De 16 a 18 poden entrar lliurement només si no hi ha cap contingut per a majors d’edat</li>
+        </ol>
+      </mj-text>
+    </mj-column>
+    </mj-section>
+
+    <!--Imagen de como se ven las entradas-->
+    <mj-section background-color="#F2F2F2" padding-bottom="0px" padding-top="0px"  border-right="1px solid #aaaaaa"  border-left="1px solid #aaaaaa">
+      <mj-column>
+        <mj-image height="280px" padding-top="0px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/entradas.jpg">
+      </mj-column>
+    </mj-section>
+
+    <!--Fecha del evento-->
+    <mj-section  background-color="#F2F2F2" border-right="1px solid #aaaaaa" border-left="1px solid #aaaaaa" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-text align="center" padding="22px" padding-bottom="0px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="22px" line-height="150%">
+            <b>SALÓ del CÒMIC de VALÈNCIA</b> <br> Del 28 de febrer al 2 de març Dv-Ds: <br> 11 - 20 h. Dg: 11-19h.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--Mensaje motivador-->
+    <mj-section background-color="#F2F2F2" padding-bottom="0px" padding-top="0px" border-right="1px solid #aaaaaa" border-left="1px solid #aaaaaa">
+      <mj-column>
+        <mj-text align="center" padding="16px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="18px" line-height="150%">
+          ¡¡¡Compra hui mateix les teues entrades per a assistir al major esdeveniment de còmics, anime i manga de València!!! 👇🎟️
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--Boton para comprar las entradas del evento-->
+    <mj-section  background-color="#F2F2F2"  border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding-top="0px" padding-left="79px" padding-right="79px" border-bottom="1px solid #aaaaaa">
+      <mj-column>
+        <mj-button font-weight="bold" background-color="black" color="white" font-size="16px" target="_blank" href="https://entradascomicvalencia.feriavalencia.com/ticket.do?metodo=lista">
+          👉Entrades Saló del Cómic 2025👈
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!--Titulo de la tabla de precios-->
+    <mj-section padding-bottom="0px">
+        <mj-column>
+          <mj-text font-family="Rammetto One" font-weight="400" line-height="30px" letter-spacing="1px" color="black" align="center" font-size="20px">
+            <h1>PREUS de les Entrades</h1>
+            <h3>ENTRADES ONLINE FINS AL 03/03/2025</h3>
+          </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <!--Tabla de precios-->
+    <mj-section background-color="white"  padding="10px" border-bottom="1px solid #aaaaaa" padding-top="0px" padding-bottom="30px">
+      <mj-column>
+        <mj-table css-class="tabla">
+          <tr>
+            <th style="padding: 5px 20px;"></th>
+            <th style="padding: 5px 20px;">viernes</th>
+            <th style="padding: 5px 20px;">sábado</th>
+            <th style="padding: 5px 20px;">domingo</th>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Entrada Adulto</b></td>
+            <td style="padding: 5px 20px;">12€</td>
+            <td style="padding: 5px 20px;">15,5€</td>
+            <td style="padding: 5px 20px;">15€</td>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Entrada Niño</b></td>
+            <td style="padding: 5px 20px;">9€</td>
+            <td style="padding: 5px 20px;">9€</td>
+            <td style="padding: 5px 20px;">9€</td>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Pack Familiar (*)</b></td>
+            <td style="padding: 5px 20px;">36€</td>
+            <td style="padding: 5px 20px;">42€</td>
+            <td style="padding: 5px 20px;">42€</td>
+          </tr>
+          <tr>
+            <td style="padding: 0 0 0 0; text-align:left; padding-left:10px"><b>Pack Amigos (5 adultos)</b></td>
+            <td style="padding: 5px 20px;">50€</td>
+            <td style="padding: 5px 20px;">65€</td>
+            <td style="padding: 5px 20px;">65€</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!--Información adicional relacionada a la tabla-->
+    <mj-section background-color="#F2F2F2" border-left="1px solid #aaaaaa" border-right="1px solid #aaaaaa" padding="20px" border-bottom="1px solid #aaaaaa" padding-top="20px">
+      <mj-column>
+              <mj-text padding="20px" font-family="Verdana" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="150%">
+                <b>*Packs família</b> només són vàlids per a dos adults i dos menors entre 4 i 13 anys. Recorda que si compres una entrada de menor de 14 anys hauràs d’acreditar la seua edat a les taquilles. <br><br>
+                *LES ENTRADES SÓN VÀLIDES PER A UNA SOLA PERSONA I VISITA (si es ix del recinte <b>NO es pot tornar a entrar</b> amb la mateixa entrada), <br><br>
+                <b>Només es procedirà a la devolució de l’import de l’entrada i canvis en cas de cancel·lació de l’esdeveniment</b>
+              </mj-text>
+      </mj-column>
+    </mj-section>
+      
+    <!--Aquí empieza el footer-->
+    <mj-section padding-top="10px">
+      <mj-group width="100%">
+          <!--Redes Sociales-->
+          
+          <mj-column width="34%" padding-left="35px">
+                  <mj-text align="left" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
+                      <h2><b>Síguenos</b></h2> 
+                  </mj-text>
+              <mj-social align="left" icon-size="45px" mode="horizontal" padding-bottom="5px">
+                  <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/2023_Facebook_icon.svg.png" href="https://www.facebook.com/SalonComicValencia/?locale=es_ES">
+                  </mj-social-element>
+                  <mj-social-element  icon-size="40px" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/X_logo_2023.svg.png" href="https://x.com/saloncomicvlc?lang=es">
+                  </mj-social-element>
+                  <mj-social-element src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" href="https://www.instagram.com/saloncomicvalencia/?hl=es">
+                  </mj-social-element>
+                  <mj-social-element src="https://github.com/marzomilla/PracticaMarzoDAW1/raw/refs/heads/main/IMG/tiktok.webp" href="https://www.tiktok.com/@saloncomicvalencia?lang=es">
+                  </mj-social-element>
+                  <mj-social-element src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/flickr.png" href="https://www.flickr.com/photos/feria-valencia/albums/72177720324129371/">
+                  </mj-social-element>
+              </mj-social>
+          </mj-column>
+
+          <mj-column width="33%" padding-left="0px" padding-top="0px">
+            <mj-text  padding-bottom="0px" align="center" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
+                <h2><b>Informació</b></h2>
+            </mj-text>
+
+            <mj-button width="173px" padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://www.feriavalencia.com/quienes-somos/">
+              Nosaltres
+            </mj-button>
+
+            <mj-button  padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://www.feriavalencia.com/como-llegar-al-centro-de-eventos-de-feria-valencia/">
+              Lloc
+            </mj-button>
+
+            <mj-button  padding-bottom="44px" background-color="white" color="black" font-size="18px" target="_blank" href="https://www.feriavalencia.com/contacto/">
+              Contacte
+            </mj-button>
+          </mj-column>
+
+          <mj-column width="33%" padding-left="0px" padding-top="0px">
+            <mj-text  padding-bottom="0px" align="right" padding-right="70px" font-family="Helvetica,Arial,sans-serif" font-size="16px" line-height="90%">
+                <h2><b>Legales</b></h2>
+            </mj-text>
+
+            <mj-button width="173px" padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://www.feriavalencia.com/en/avisos-legales/">
+              Avis Legal
+            </mj-button>
+
+            <mj-button  padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://www.feriavalencia.com/politica-de-privacidad/">
+              Política de privacitat
+            </mj-button>
+
+            <mj-button  padding-bottom="0px" background-color="white" color="black" font-size="18px" target="_blank" href="https://www.feriavalencia.com/politica-de-cookies/">
+              Política de cookies
+            </mj-button>
+          </mj-column>
+      </mj-group>
+    </mj-section>
+    
+    <mj-section padding-top="0px">
+          <mj-column width="100%" padding-left="40px" padding-right="10px">
+              <mj-text padding-left="26px" font-family="Helvetica,Arial,sans-serif" font-size="16px"line-height="150%">
+                  <h2><b>Organiza</b></h2>
+              </mj-text align="left">
+              <mj-image width="300px" target="_blank" href="https://www.feriavalencia.com/" src="https://raw.githubusercontent.com/marzomilla/PracticaMarzoDAW1/refs/heads/main/IMG/LOGO-FERIA-VALENCIA.jpg">
+          </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-family="Helvetica,Arial,sans-serif" font-size="14px" line-height="150%">
+            © Feria Valencia - Tots el drets reservats
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
+
+
